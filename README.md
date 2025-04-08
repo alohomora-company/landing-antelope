@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Loqu Landing Page
 
-## Getting Started
+Welcome to the Loqu landing page repository! This is the official landing page for Loqu, the most advanced language exchange platform.
 
-First, run the development server:
+## About Loqu
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Loqu is a vibrant, feed-based community where you can:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Share posts and follow friends
+- Learn languages beyond basic greetings
+- Experience AI-powered language learning features
+- Connect with language learners worldwide
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Platforms
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- iOS: [Download on the App Store](https://apps.apple.com/app/loqu)
+- Android: [Get it on Google Play](https://play.google.com/store/apps/details?id=xyz.loqu.app)
+- Web: [Access Web App](https://app.loqu.xyz)
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+This landing page is built with:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Shadcn UI
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contact
 
-## Deploy on Vercel
+For any inquiries, please contact us at: support@alohomora.company
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Legal
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Privacy Policy](/privacy)
+- [Terms of Service](/terms)
+- [Community Guidelines](/community)
+
+Copyright 2025 © Alohomora Company. All Rights Reserved.
