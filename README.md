@@ -32,8 +32,8 @@ For any inquiries, please contact us at: support@alohomora.company
 
 ## Legal
 
-- [Privacy Policy](/privacy)
-- [Terms of Service](/terms)
-- [Community Guidelines](/community)
+- [Privacy Policy](/privacy-policy)
+- [Terms of Service](/terms-of-service)
+- [Community Guidelines](/community-guideline)
 
 Copyright 2025 © Alohomora Company. All Rights Reserved.

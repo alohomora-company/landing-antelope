@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col gap-4 md:hidden">
           <div className="flex justify-between items-center">
             <Link
-              href="/privacy"
+              href="/privacy-policy"
               className="text-neutral-100 hover:text-neutral-400 transition text-sm"
             >
               Privacy Policy
@@ -54,7 +54,7 @@ const Footer = () => {
           </div>
           <div className="col-span-9 flex justify-between items-center">
             <Link
-              href="/privacy"
+              href="/privacy-policy"
               className="text-neutral-100 hover:text-neutral-400 transition text-xs ml-[200px]"
             >
               Privacy Policy

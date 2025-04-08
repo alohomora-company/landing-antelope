@@ -1,9 +1,11 @@
 import Footer from "@/components/Footer";
 import Image from "next/image";
 import Link from "next/link";
+
 const TermsOfService = () => {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-black text-white">
+      {/* Header */}
       <div className="w-full flex justify-center py-8">
         <div className="w-[120px] h-[52px] flex items-center justify-center">
           <Link href="/" className="cursor-pointer">
@@ -18,66 +20,142 @@ const TermsOfService = () => {
         </div>
       </div>
 
-      <main className="flex-grow px-8 py-12 max-w-[1664px] mx-auto text-white">
-        <h1 className="text-4xl font-bold mb-8 font-sans">
-          Terms & Conditions
+      {/* Main Content */}
+      <main className="flex-grow px-6 md:px-12 py-12 max-w-4xl mx-auto">
+        <h1 className="text-4xl font-bold mb-10 text-center font-sans">
+          Terms of Service
         </h1>
 
-        <div className="prose prose-invert max-w-none">
-          <p>
-            These terms and conditions apply to the Loqu app (hereby referred to
-            as Application) for mobile devices that was created by Alohomora
-            Company (hereby referred to as Service Provider) as a Freemium
-            service.
-          </p>
+        {/* 📌 Table of Contents */}
+        <nav className="mb-16">
+          <h2 className="text-xl font-semibold mb-4">Table of Contents</h2>
+          <ul className="space-y-2 list-disc list-inside text-blue-400">
+            <li>
+              <a href="#introduction" className="hover:text-blue-300">
+                Introduction
+              </a>
+            </li>
+            <li>
+              <a href="#acceptance" className="hover:text-blue-300">
+                Acceptance of Terms
+              </a>
+            </li>
+            <li>
+              <a href="#intellectual-property" className="hover:text-blue-300">
+                Intellectual Property
+              </a>
+            </li>
+            <li>
+              <a href="#modifications" className="hover:text-blue-300">
+                Modifications & Charges
+              </a>
+            </li>
+            <li>
+              <a href="#data-security" className="hover:text-blue-300">
+                Data & Security
+              </a>
+            </li>
+            <li>
+              <a href="#third-party" className="hover:text-blue-300">
+                Third-Party Services
+              </a>
+            </li>
+            <li>
+              <a href="#connectivity" className="hover:text-blue-300">
+                Connectivity & Limitations
+              </a>
+            </li>
+            <li>
+              <a href="#device" className="hover:text-blue-300">
+                Device Responsibilities
+              </a>
+            </li>
+            <li>
+              <a href="#updates" className="hover:text-blue-300">
+                Updates & Termination
+              </a>
+            </li>
+            <li>
+              <a href="#changes" className="hover:text-blue-300">
+                Changes to Terms
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-blue-300">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-          <p>
-            Upon downloading or utilizing the Application, you are automatically
-            agreeing to the following terms. It is strongly advised that you
-            thoroughly read and understand these terms prior to using the
-            Application. Unauthorized copying, modification of the Application,
-            any part of the Application, or our trademarks is strictly
-            prohibited. Any attempts to extract the source code of the
-            Application, translate the Application into other languages, or
-            create derivative versions are not permitted. All trademarks,
-            copyrights, database rights, and other intellectual property rights
-            related to the Application remain the property of the Service
+        {/* Sections (with IDs) */}
+        <section id="introduction" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
+          <p className="leading-relaxed mb-4">
+            These terms and conditions apply to the Loqu app (hereby referred to
+            as Application) created by Alohomora Company (Service Provider) as a
+            Freemium service.
+          </p>
+          <p className="leading-relaxed mb-4">
+            By downloading or using the Application, you agree to the terms
+            described herein. It is strongly advised that you read them
+            carefully before using the Application.
+          </p>
+        </section>
+
+        <section id="acceptance" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">
+            2. Acceptance of Terms
+          </h2>
+          <p className="leading-relaxed mb-4">
+            By using the Application, you are automatically agreeing to these
+            terms. Unauthorized copying or modification is strictly prohibited.
+          </p>
+        </section>
+
+        <section id="intellectual-property" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">
+            3. Intellectual Property
+          </h2>
+          <p className="leading-relaxed mb-4">
+            You may not extract source code, translate, or create derivative
+            versions of the Application. All IP rights remain with the Service
             Provider.
           </p>
+        </section>
 
-          <p>
-            The Service Provider is dedicated to ensuring that the Application
-            is as beneficial and efficient as possible. As such, they reserve
-            the right to modify the Application or charge for their services at
-            any time and for any reason. The Service Provider assures you that
-            any charges for the Application or its services will be clearly
-            communicated to you.
+        <section id="modifications" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">
+            4. Modifications & Charges
+          </h2>
+          <p className="leading-relaxed mb-4">
+            The Service Provider reserves the right to modify the Application or
+            charge for services at any time. Any changes will be clearly
+            communicated to users.
           </p>
+        </section>
 
-          <p>
-            The Application stores and processes personal data that you have
-            provided to the Service Provider in order to provide the Service. It
-            is your responsibility to maintain the security of your phone and
-            access to the Application. The Service Provider strongly advise
-            against jailbreaking or rooting your phone, which involves removing
-            software restrictions and limitations imposed by the official
-            operating system of your device. Such actions could expose your
-            phone to malware, viruses, malicious programs, compromise your
-            phones security features, and may result in the Application not
-            functioning correctly or at all.
+        <section id="data-security" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">5. Data & Security</h2>
+          <p className="leading-relaxed mb-4">
+            Your personal data is stored and processed securely. Do not
+            jailbreak/root your device as it may affect security and
+            functionality.
           </p>
+        </section>
 
-          <p>
-            Please note that the Application utilizes third-party services that
-            have their own Terms and Conditions. Below are the links to the
-            Terms and Conditions of the third-party service providers used by
-            the Application:
+        <section id="third-party" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">
+            6. Third-Party Services
+          </h2>
+          <p className="leading-relaxed mb-4">
+            The Application uses third-party services. Refer to their terms:
           </p>
-          <ul className="list-disc pl-6">
+          <ul className="list-disc pl-6 space-y-2 text-blue-400">
             <li>
               <a
                 href="https://policies.google.com/terms"
-                className="text-blue-400 hover:text-blue-300"
+                className="hover:text-blue-300"
               >
                 Google Play Services
               </a>
@@ -85,7 +163,7 @@ const TermsOfService = () => {
             <li>
               <a
                 href="https://developers.google.com/admob/terms"
-                className="text-blue-400 hover:text-blue-300"
+                className="hover:text-blue-300"
               >
                 AdMob
               </a>
@@ -93,110 +171,72 @@ const TermsOfService = () => {
             <li>
               <a
                 href="https://www.google.com/analytics/terms/"
-                className="text-blue-400 hover:text-blue-300"
+                className="hover:text-blue-300"
               >
                 Google Analytics for Firebase
               </a>
             </li>
             <li>
-              <a
-                href="https://expo.dev/terms"
-                className="text-blue-400 hover:text-blue-300"
-              >
+              <a href="https://expo.dev/terms" className="hover:text-blue-300">
                 Expo
               </a>
             </li>
             <li>
               <a
                 href="https://www.revenuecat.com/terms/"
-                className="text-blue-400 hover:text-blue-300"
+                className="hover:text-blue-300"
               >
                 RevenueCat
               </a>
             </li>
           </ul>
+        </section>
 
-          <p>
-            Please be aware that the Service Provider does not assume
-            responsibility for certain aspects. Some functions of the
-            Application require an active internet connection, which can be
-            Wi-Fi or provided by your mobile network provider. The Service
-            Provider cannot be held responsible if the Application does not
-            function at full capacity due to lack of access to Wi-Fi or if you
-            have exhausted your data allowance.
-          </p>
-
-          <p>
-            If you are using the application outside of a Wi-Fi area, please be
-            aware that your mobile network providers agreement terms still
-            apply. Consequently, you may incur charges from your mobile provider
-            for data usage during the connection to the application, or other
-            third-party charges. By using the application, you accept
-            responsibility for any such charges, including roaming data charges
-            if you use the application outside of your home territory (i.e.,
-            region or country) without disabling data roaming. If you are not
-            the bill payer for the device on which you are using the
-            application, they assume that you have obtained permission from the
-            bill payer.
-          </p>
-
-          <p>
-            Similarly, the Service Provider cannot always assume responsibility
-            for your usage of the application. For instance, it is your
-            responsibility to ensure that your device remains charged. If your
-            device runs out of battery and you are unable to access the Service,
-            the Service Provider cannot be held responsible.
-          </p>
-
-          <p>
-            In terms of the Service Providers responsibility for your use of the
-            application, it is important to note that while they strive to
-            ensure that it is updated and accurate at all times, they do rely on
-            third parties to provide information to them so that they can make
-            it available to you. The Service Provider accepts no liability for
-            any loss, direct or indirect, that you experience as a result of
-            relying entirely on this functionality of the application.
-          </p>
-
-          <p>
-            The Service Provider may wish to update the application at some
-            point. The application is currently available as per the
-            requirements for the operating system (and for any additional
-            systems they decide to extend the availability of the application
-            to) may change, and you will need to download the updates if you
-            want to continue using the application. The Service Provider does
-            not guarantee that it will always update the application so that it
-            is relevant to you and/or compatible with the particular operating
-            system version installed on your device. However, you agree to
-            always accept updates to the application when offered to you. The
-            Service Provider may also wish to cease providing the application
-            and may terminate its use at any time without providing termination
-            notice to you. Unless they inform you otherwise, upon any
-            termination, (a) the rights and licenses granted to you in these
-            terms will end; (b) you must cease using the application, and (if
-            necessary) delete it from your device.
-          </p>
-
-          <h2 className="text-2xl font-semibold mt-8 mb-4">
-            Changes to These Terms and Conditions
+        <section id="connectivity" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">
+            7. Connectivity & Limitations
           </h2>
-          <p>
-            The Service Provider may periodically update their Terms and
-            Conditions. Therefore, you are advised to review this page regularly
-            for any changes. The Service Provider will notify you of any changes
-            by posting the new Terms and Conditions on this page.
+          <p className="leading-relaxed mb-4">
+            The Application may not function properly without internet access.
+            Data charges may apply. Roaming fees are also your responsibility.
           </p>
-          <p>
-            <strong>
-              These terms and conditions are effective as of 2025-04-04
-            </strong>
-          </p>
+        </section>
 
-          <h2 className="text-2xl font-semibold mt-8 mb-4">Contact Us</h2>
-          <p>
-            If you have any questions or suggestions about the Terms and
-            Conditions, please do not hesitate to contact the Service Provider
-            at{" "}
+        <section id="device" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">
+            8. Device Responsibilities
+          </h2>
+          <p className="leading-relaxed mb-4">
+            Ensure your device is charged and maintained. The Service Provider
+            is not liable for loss of service due to battery issues.
+          </p>
+        </section>
+
+        <section id="updates" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">
+            9. Updates & Termination
+          </h2>
+          <p className="leading-relaxed mb-4">
+            You agree to install updates to continue using the Application. The
+            Service Provider may stop providing the app at any time.
+          </p>
+        </section>
+
+        <section id="changes" className="mb-12">
+          <h2 className="text-2xl font-semibold mb-4">10. Changes to Terms</h2>
+          <p className="leading-relaxed mb-4">
+            These terms may be updated. Please check this page periodically for
+            updates.
+          </p>
+          <p className="leading-relaxed font-semibold">
+            Effective as of 2025-04-04
+          </p>
+        </section>
+
+        <section id="contact" className="mb-20">
+          <h2 className="text-2xl font-semibold mb-4">11. Contact</h2>
+          <p className="leading-relaxed">
+            If you have any questions, please contact us at{" "}
             <a
               href="mailto:privacy@alohomora.company"
               className="text-blue-400 hover:text-blue-300"
@@ -205,9 +245,10 @@ const TermsOfService = () => {
             </a>
             .
           </p>
-        </div>
+        </section>
       </main>
 
+      {/* Footer */}
       <Footer />
     </div>
   );
