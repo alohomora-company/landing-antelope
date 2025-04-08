@@ -64,7 +64,7 @@ const Main = () => {
             >
               <Button
                 size="lg"
-                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px] rounded-xl"
               >
                 iOS
               </Button>
@@ -77,7 +77,7 @@ const Main = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px] rounded-xl"
               >
                 Android
               </Button>
@@ -90,7 +90,7 @@ const Main = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px] rounded-xl"
               >
                 Web
               </Button>
