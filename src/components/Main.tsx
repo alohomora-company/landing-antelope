@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import Footer from "@/components/Footer";
+import Image from "next/image";
 import Link from "next/link";
 
 const Main = () => {
@@ -7,13 +9,19 @@ const Main = () => {
       {/** main section */}
       <section className="relative h-[980px] flex flex-col items-center justify-center gap-8 overflow-hidden bg-neutral-950">
         <div className="w-[458px] h-[143px] flex items-center justify-center -mt-30">
-          <img
-            src="/assets/loqu-logo.png"
-            alt="Loqu Logo"
-            width={458}
-            height={143}
-            className="object-contain w-full h-full"
-          />
+          <Link
+            href="https://loqu.xyz"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/assets/loqu-logo.png"
+              alt="Loqu Logo"
+              width={458}
+              height={143}
+              className="object-contain w-full h-full"
+            />
+          </Link>
         </div>
         <div className="relative w-[100%] max-w-[500px]">
           <div className="absolute inset-0 flex flex-col items-center justify-between pt-2 pb-8 text-center z-10 max-w-[500px]">
@@ -77,44 +85,7 @@ const Main = () => {
         </div>
       </section>
 
-      {/* Info Section - Contact info and legal links */}
-      <footer className="py-2 bg-neutral-900">
-        <div className="max-w-[1664px] mx-auto px-8">
-          <div className="grid grid-cols-12 items-center">
-            <div className="col-span-3 flex flex-col items-start justify-center gap-1">
-              <a
-                href="mailto:support@alohomora.company"
-                className="text-neutral-100 hover:text-neutral-400 transition text-xs"
-              >
-                support@alohomora.company
-              </a>
-              <span className="text-neutral-100 text-xs">
-                Copyright 2025 © Alohomora Company. All Rights Reserved.
-              </span>
-            </div>
-            <div className="col-span-9 flex justify-between items-center">
-              <Link
-                href="/privacy"
-                className="text-neutral-100 hover:text-neutral-400 transition text-xs ml-[200px]"
-              >
-                Privacy Policy
-              </Link>
-              <Link
-                href="/terms"
-                className="text-neutral-100 hover:text-neutral-400 transition text-xs ml-8"
-              >
-                Terms of Service
-              </Link>
-              <Link
-                href="/community"
-                className="text-neutral-100 hover:text-neutral-400 transition text-xs mr-[200px]"
-              >
-                Community Guidelines
-              </Link>
-            </div>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
