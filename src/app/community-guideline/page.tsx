@@ -1,18 +1,21 @@
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 const CommunityGuideline = () => {
   return (
     <>
       <div className="w-full flex justify-center py-8">
         <div className="w-[120px] h-[52px] flex items-center justify-center">
-          <Image
-            src="/assets/loqu-logo.png"
-            alt="Loqu Logo"
-            width={120}
-            height={52}
-            className="object-contain w-full h-full"
-          />
+          <Link href="/" className="cursor-pointer">
+            <Image
+              src="/assets/loqu-logo.png"
+              alt="Loqu Logo"
+              width={120}
+              height={52}
+              className="object-contain w-full h-full"
+            />
+          </Link>
         </div>
       </div>
 

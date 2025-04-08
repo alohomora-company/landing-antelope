@@ -6,11 +6,7 @@ const TermsOfService = () => {
     <div className="min-h-screen flex flex-col">
       <div className="w-full flex justify-center py-8">
         <div className="w-[120px] h-[52px] flex items-center justify-center">
-          <Link
-            href="https://loqu.xyz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/" className="cursor-pointer">
             <Image
               src="/assets/loqu-logo.png"
               alt="Loqu Logo"

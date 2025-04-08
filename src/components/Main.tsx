@@ -9,11 +9,7 @@ const Main = () => {
       {/** main section */}
       <section className="relative h-[980px] flex flex-col items-center justify-center gap-8 overflow-hidden bg-neutral-950">
         <div className="w-[458px] h-[143px] flex items-center justify-center -mt-30">
-          <Link
-            href="https://loqu.xyz"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="/" className="cursor-pointer">
             <Image
               src="/assets/loqu-logo.png"
               alt="Loqu Logo"
@@ -61,26 +57,44 @@ const Main = () => {
 
         <div className="flex flex-col items-center space-y-4 text-center mb-8 z-10">
           <div className="flex flex-row gap-4">
-            <Button
-              size="lg"
-              className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+            <a
+              href="https://apps.apple.com/app/id6736823979"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              iOS
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+              <Button
+                size="lg"
+                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+              >
+                iOS
+              </Button>
+            </a>
+            <a
+              href="https://play.google.com/store/apps/details?id=company.alohomora.loqu"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Android
-            </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+              <Button
+                size="lg"
+                variant="outline"
+                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+              >
+                Android
+              </Button>
+            </a>
+            <a
+              href="https://app.loqu.xyz"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Web
-            </Button>
+              <Button
+                size="lg"
+                variant="outline"
+                className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px]"
+              >
+                Web
+              </Button>
+            </a>
           </div>
         </div>
       </section>
