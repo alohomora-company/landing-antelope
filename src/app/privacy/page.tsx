@@ -20,7 +20,6 @@ const PrivacyPolicy = () => {
             </Link>
           </div>
         </div>
-
         {/* Main Content */}
         <div className="w-full max-w-[480px] md:max-w-[1224px] px-4 md:px-8">
           <main className="flex-grow">
