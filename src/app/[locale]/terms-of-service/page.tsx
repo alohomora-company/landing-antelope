@@ -1,8 +1,10 @@
 import Footer from "@/components/Footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const TermsOfService = () => {
+  const t = useTranslations();
   return (
     <div className="min-h-screen flex flex-col bg-black text-white">
       {/* Header */}
@@ -23,66 +25,69 @@ const TermsOfService = () => {
       {/* Main Content */}
       <main className="flex-grow px-6 md:px-12 py-12 max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-10 text-center font-sans">
-          Terms of Service
+          {t("termsOfService.title")}
+          {/* Terms of Service */}
         </h1>
 
         {/* 📌 Table of Contents */}
         <nav className="mb-16">
-          <h2 className="text-xl font-semibold mb-4">Table of Contents</h2>
+          <h2 className="text-xl font-semibold mb-4">
+            {t("termsOfService.description")}
+          </h2>
           <ul className="space-y-2 list-disc list-inside text-blue-400">
             <li>
               <a href="#introduction" className="hover:text-blue-300">
-                Introduction
+                {t("termsOfService.sections.introduction.title")}
               </a>
             </li>
             <li>
               <a href="#acceptance" className="hover:text-blue-300">
-                Acceptance of Terms
+                {t("termsOfService.sections.acceptance.title")}
               </a>
             </li>
             <li>
               <a href="#intellectual-property" className="hover:text-blue-300">
-                Intellectual Property
+                {t("termsOfService.sections.intellectualProperty.title")}
               </a>
             </li>
             <li>
               <a href="#modifications" className="hover:text-blue-300">
-                Modifications & Charges
+                {t("termsOfService.sections.modifications.title")}
               </a>
             </li>
             <li>
               <a href="#data-security" className="hover:text-blue-300">
-                Data & Security
+                {t("termsOfService.sections.dataSecurity.title")}
               </a>
             </li>
             <li>
               <a href="#third-party" className="hover:text-blue-300">
-                Third-Party Services
+                {t("termsOfService.sections.thirdParty.title")}
               </a>
             </li>
             <li>
               <a href="#connectivity" className="hover:text-blue-300">
-                Connectivity & Limitations
+                {t("termsOfService.sections.connectivity.title")}
               </a>
             </li>
             <li>
               <a href="#device" className="hover:text-blue-300">
-                Device Responsibilities
+                {t("termsOfService.sections.device.title")}
               </a>
             </li>
             <li>
               <a href="#updates" className="hover:text-blue-300">
-                Updates & Termination
+                {t("termsOfService.sections.updates.title")}
               </a>
             </li>
             <li>
               <a href="#changes" className="hover:text-blue-300">
-                Changes to Terms
+                {t("termsOfService.sections.changes.title")}
               </a>
             </li>
             <li>
               <a href="#contact" className="hover:text-blue-300">
-                Contact
+                {t("termsOfService.sections.contact.title")}
               </a>
             </li>
           </ul>
@@ -90,66 +95,59 @@ const TermsOfService = () => {
 
         {/* Sections (with IDs) */}
         <section id="introduction" className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">1. Introduction</h2>
+          <h2 className="text-2xl font-semibold mb-4">
+            {t("termsOfService.sections.introduction.title")}
+          </h2>
           <p className="leading-relaxed mb-4">
-            These terms and conditions apply to the Loqu app (hereby referred to
-            as Application) created by Alohomora Company (Service Provider) as a
-            Freemium service.
+            {t("termsOfService.sections.introduction.content0")}
           </p>
           <p className="leading-relaxed mb-4">
-            By downloading or using the Application, you agree to the terms
-            described herein. It is strongly advised that you read them
-            carefully before using the Application.
+            {t("termsOfService.sections.introduction.content1")}
           </p>
         </section>
 
         <section id="acceptance" className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">
-            2. Acceptance of Terms
+            {t("termsOfService.sections.acceptance.title")}
           </h2>
           <p className="leading-relaxed mb-4">
-            By using the Application, you are automatically agreeing to these
-            terms. Unauthorized copying or modification is strictly prohibited.
+            {t("termsOfService.sections.acceptance.content0")}
           </p>
         </section>
 
         <section id="intellectual-property" className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">
-            3. Intellectual Property
+            {t("termsOfService.sections.intellectualProperty.title")}
           </h2>
           <p className="leading-relaxed mb-4">
-            You may not extract source code, translate, or create derivative
-            versions of the Application. All IP rights remain with the Service
-            Provider.
+            {t("termsOfService.sections.intellectualProperty.content0")}
           </p>
         </section>
 
         <section id="modifications" className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">
-            4. Modifications & Charges
+            {t("termsOfService.sections.modifications.title")}
           </h2>
           <p className="leading-relaxed mb-4">
-            The Service Provider reserves the right to modify the Application or
-            charge for services at any time. Any changes will be clearly
-            communicated to users.
+            {t("termsOfService.sections.modifications.content0")}
           </p>
         </section>
 
         <section id="data-security" className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">5. Data & Security</h2>
+          <h2 className="text-2xl font-semibold mb-4">
+            {t("termsOfService.sections.dataSecurity.title")}
+          </h2>
           <p className="leading-relaxed mb-4">
-            Your personal data is stored and processed securely. Do not
-            jailbreak/root your device as it may affect security and
-            functionality.
+            {t("termsOfService.sections.dataSecurity.content0")}
           </p>
         </section>
 
         <section id="third-party" className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">
-            6. Third-Party Services
+            {t("termsOfService.sections.thirdParty.title")}
           </h2>
           <p className="leading-relaxed mb-4">
-            The Application uses third-party services. Refer to their terms:
+            {t("termsOfService.sections.thirdParty.content0")}
           </p>
           <ul className="list-disc pl-6 space-y-2 text-blue-400">
             <li>
@@ -157,7 +155,7 @@ const TermsOfService = () => {
                 href="https://policies.google.com/terms"
                 className="hover:text-blue-300"
               >
-                Google Play Services
+                {t("termsOfService.sections.thirdParty.links.googlePlay")}
               </a>
             </li>
             <li>
@@ -165,7 +163,7 @@ const TermsOfService = () => {
                 href="https://developers.google.com/admob/terms"
                 className="hover:text-blue-300"
               >
-                AdMob
+                {t("termsOfService.sections.thirdParty.links.admob")}
               </a>
             </li>
             <li>
@@ -173,12 +171,12 @@ const TermsOfService = () => {
                 href="https://www.google.com/analytics/terms/"
                 className="hover:text-blue-300"
               >
-                Google Analytics for Firebase
+                {t("termsOfService.sections.thirdParty.links.analytics")}
               </a>
             </li>
             <li>
               <a href="https://expo.dev/terms" className="hover:text-blue-300">
-                Expo
+                {t("termsOfService.sections.thirdParty.links.expo")}
               </a>
             </li>
             <li>
@@ -186,7 +184,7 @@ const TermsOfService = () => {
                 href="https://www.revenuecat.com/terms/"
                 className="hover:text-blue-300"
               >
-                RevenueCat
+                {t("termsOfService.sections.thirdParty.links.revenuecat")}
               </a>
             </li>
           </ul>
@@ -194,49 +192,49 @@ const TermsOfService = () => {
 
         <section id="connectivity" className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">
-            7. Connectivity & Limitations
+            {t("termsOfService.sections.connectivity.title")}
           </h2>
           <p className="leading-relaxed mb-4">
-            The Application may not function properly without internet access.
-            Data charges may apply. Roaming fees are also your responsibility.
+            {t("termsOfService.sections.connectivity.content0")}
           </p>
         </section>
 
         <section id="device" className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">
-            8. Device Responsibilities
+            {t("termsOfService.sections.device.title")}
           </h2>
           <p className="leading-relaxed mb-4">
-            Ensure your device is charged and maintained. The Service Provider
-            is not liable for loss of service due to battery issues.
+            {t("termsOfService.sections.device.content0")}
           </p>
         </section>
 
         <section id="updates" className="mb-12">
           <h2 className="text-2xl font-semibold mb-4">
-            9. Updates & Termination
+            {t("termsOfService.sections.updates.title")}
           </h2>
           <p className="leading-relaxed mb-4">
-            You agree to install updates to continue using the Application. The
-            Service Provider may stop providing the app at any time.
+            {t("termsOfService.sections.updates.content0")}
           </p>
         </section>
 
         <section id="changes" className="mb-12">
-          <h2 className="text-2xl font-semibold mb-4">10. Changes to Terms</h2>
+          <h2 className="text-2xl font-semibold mb-4">
+            {t("termsOfService.sections.changes.title")}
+          </h2>
           <p className="leading-relaxed mb-4">
-            These terms may be updated. Please check this page periodically for
-            updates.
+            {t("termsOfService.sections.changes.content0")}
           </p>
           <p className="leading-relaxed font-semibold">
-            Effective as of 2025-04-04
+            {t("termsOfService.sections.changes.effectiveDate")}
           </p>
         </section>
 
         <section id="contact" className="mb-20">
-          <h2 className="text-2xl font-semibold mb-4">11. Contact</h2>
+          <h2 className="text-2xl font-semibold mb-4">
+            {t("termsOfService.sections.contact.title")}
+          </h2>
           <p className="leading-relaxed">
-            If you have any questions, please contact us at{" "}
+            {t("termsOfService.sections.contact.content0")}
             <a
               href="mailto:privacy@alohomora.company"
               className="text-blue-400 hover:text-blue-300"

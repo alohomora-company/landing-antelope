@@ -1,8 +1,10 @@
 import Footer from "@/components/Footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const PrivacyPolicy = () => {
+  const t = useTranslations();
   return (
     <>
       <div className="w-full flex flex-col items-center bg-black text-white min-h-screen">
@@ -24,67 +26,59 @@ const PrivacyPolicy = () => {
         <div className="w-full max-w-[480px] md:max-w-[1224px] px-4 md:px-8">
           <main className="flex-grow">
             <h1 className="text-3xl md:text-4xl font-bold mb-6 md:mb-8 font-sans text-center md:text-left">
-              Privacy Policy
+              {t("privacyPolicy.title")}
             </h1>
 
             <div className="prose prose-invert max-w-none text-sm md:text-base">
-              <p className="mb-6">
-                At Loqu, we take your privacy seriously. This Privacy Policy
-                explains how we collect, use, and protect your personal
-                information.
-              </p>
+              <p className="mb-6">{t("privacyPolicy.description")}</p>
 
               <h2 className="text-xl md:text-2xl font-semibold mt-6 md:mt-8 mb-4">
-                Information We Collect
+                {t("privacyPolicy.sections.collection.title")}
               </h2>
               <p className="mb-4">
-                We collect information that you provide directly to us,
-                including:
+                {t("privacyPolicy.sections.collection.intro")}
               </p>
               <ul className="list-disc pl-6 mb-6">
-                <li>Account information (name, email, password)</li>
-                <li>Profile information (bio, language preferences)</li>
-                <li>Content you post or share</li>
-                <li>Communications with other users</li>
+                <li>{t("privacyPolicy.sections.collection.items0")}</li>
+                <li>{t("privacyPolicy.sections.collection.items1")}</li>
+                <li>{t("privacyPolicy.sections.collection.items2")}</li>
+                <li>{t("privacyPolicy.sections.collection.items3")}</li>
               </ul>
 
               <h2 className="text-xl md:text-2xl font-semibold mt-6 md:mt-8 mb-4">
-                How We Use Your Information
+                {t("privacyPolicy.sections.usage.title")}
               </h2>
-              <p className="mb-4">We use the collected information to:</p>
+              <p className="mb-4">{t("privacyPolicy.sections.usage.intro")}</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>Provide and improve our services</li>
-                <li>Personalize your experience</li>
-                <li>Communicate with you</li>
-                <li>Ensure platform safety and security</li>
+                <li>{t("privacyPolicy.sections.usage.items0")}</li>
+                <li>{t("privacyPolicy.sections.usage.items1")}</li>
+                <li>{t("privacyPolicy.sections.usage.items2")}</li>
+                <li>{t("privacyPolicy.sections.usage.items3")}</li>
               </ul>
 
               <h2 className="text-xl md:text-2xl font-semibold mt-6 md:mt-8 mb-4">
-                Data Security
+                {t("privacyPolicy.sections.security.title")}
               </h2>
               <p className="mb-6">
-                We implement appropriate security measures to protect your
-                personal information from unauthorized access, alteration, or
-                disclosure.
+                {t("privacyPolicy.sections.security.content")}
               </p>
 
               <h2 className="text-xl md:text-2xl font-semibold mt-6 md:mt-8 mb-4">
-                Your Rights
+                {t("privacyPolicy.sections.rights.title")}
               </h2>
-              <p className="mb-4">You have the right to:</p>
+              <p className="mb-4">{t("privacyPolicy.sections.rights.intro")}</p>
               <ul className="list-disc pl-6 mb-6">
-                <li>Access your personal data</li>
-                <li>Correct inaccurate data</li>
-                <li>Request deletion of your data</li>
-                <li>Object to data processing</li>
+                <li>{t("privacyPolicy.sections.rights.items0")}</li>
+                <li>{t("privacyPolicy.sections.rights.items1")}</li>
+                <li>{t("privacyPolicy.sections.rights.items2")}</li>
+                <li>{t("privacyPolicy.sections.rights.items3")}</li>
               </ul>
 
               <h2 className="text-xl md:text-2xl font-semibold mt-6 md:mt-8 mb-4">
-                Contact Us
+                {t("privacyPolicy.sections.contact.title")}
               </h2>
               <p className="mb-6">
-                If you have any questions about this Privacy Policy, please
-                contact us at{" "}
+                {t("privacyPolicy.sections.contact.content")}
                 <a
                   href="mailto:support@alohomora.company"
                   className="text-blue-400 hover:text-blue-300"

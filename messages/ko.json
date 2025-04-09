@@ -1,5 +1,5 @@
 {
-  "Main": {
+  "main": {
     "title": "가장 진보된 언어 교환을\nLoqu와 함께 경험하세요",
     "description": "게시물을 공유하고 친구를 팔로우하며 기본적인 인사말을 넘어선 언어를 배울 수 있는 활기찬 피드 기반 커뮤니티를 발견하세요. AI 기반 기능으로 언어 교환이 재미있고 쉬워집니다.\n지금 바로 Loqu를 시작하세요!",
     "buttons": {
@@ -8,13 +8,13 @@
       "web": "웹"
     }
   },
-  "Footer": {
+  "footer": {
     "privacyPolicy": "개인정보 처리방침",
     "termsOfService": "이용약관",
     "communityGuidelines": "커뮤니티 가이드라인",
     "copyright": "© 2024 Loqu. All rights reserved."
   },
-  "PrivacyPolicy": {
+  "privacyPolicy": {
     "title": "개인정보 처리방침",
     "lastUpdated": "최종 수정일: 2024년 3월 15일",
     "sections": {
@@ -40,7 +40,7 @@
       }
     }
   },
-  "TermsOfService": {
+  "termsOfService": {
     "title": "이용약관",
     "lastUpdated": "최종 수정일: 2024년 3월 15일",
     "sections": {
@@ -66,7 +66,7 @@
       }
     }
   },
-  "CommunityGuidelines": {
+  "communityGuidelines": {
     "title": "커뮤니티 가이드라인",
     "lastUpdated": "최종 수정일: 2024년 3월 15일",
     "sections": {

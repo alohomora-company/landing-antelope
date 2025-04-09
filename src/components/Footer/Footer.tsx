@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations();
   return (
     <footer className="w-full bg-black md:bg-neutral-900 py-4 md:py-2 px-4 md:px-8">
       <div className="md:max-w-[1664px] mx-auto">
@@ -11,19 +13,19 @@ const Footer = () => {
               href="/privacy-policy"
               className="text-neutral-100 hover:text-neutral-400 transition text-sm"
             >
-              Privacy Policy
+              {t("privacyPolicy.title")}
             </Link>
             <Link
               href="/terms-of-service"
               className="text-neutral-100 hover:text-neutral-400 transition text-sm"
             >
-              Terms of Service
+              {t("termsOfService.title")}
             </Link>
             <Link
               href="/community-guideline"
               className="text-neutral-100 hover:text-neutral-400 transition text-sm"
             >
-              Community Guidelines
+              {t("communityGuidelines.title")}
             </Link>
           </div>
           <div className="flex flex-col gap-1">
@@ -34,7 +36,7 @@ const Footer = () => {
               support@alohomora.company
             </a>
             <span className="text-neutral-100 text-sm">
-              Copyright 2025 © Alohomora Company. All Rights Reserved.
+              {t("footer.copyright")}
             </span>
           </div>
         </div>
@@ -49,7 +51,7 @@ const Footer = () => {
               support@alohomora.company
             </a>
             <span className="text-neutral-100 text-xs">
-              Copyright 2025 © Alohomora Company. All Rights Reserved.
+              {t("footer.copyright")}
             </span>
           </div>
           <div className="col-span-9 flex justify-between items-center">
@@ -57,19 +59,19 @@ const Footer = () => {
               href="/privacy-policy"
               className="text-neutral-100 hover:text-neutral-400 transition text-xs ml-[200px]"
             >
-              Privacy Policy
+              {t("footer.privacyPolicy")}
             </Link>
             <Link
               href="/terms-of-service"
               className="text-neutral-100 hover:text-neutral-400 transition text-xs ml-8"
             >
-              Terms of Service
+              {t("footer.termsOfService")}
             </Link>
             <Link
               href="/community-guideline"
               className="text-neutral-100 hover:text-neutral-400 transition text-xs mr-[200px]"
             >
-              Community Guidelines
+              {t("footer.communityGuidelines")}
             </Link>
           </div>
         </div>

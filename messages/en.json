@@ -12,101 +12,167 @@
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service",
     "communityGuidelines": "Community Guidelines",
-    "copyright": "© 2024 Loqu. All rights reserved."
+    "copyright": "Copyright 2025 © Alohomora Company. All Rights Reserved."
   },
+
   "privacyPolicy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: March 15, 2024",
+    "description": "At Loqu, we take your privacy seriously. This Privacy Policy\nexplains how we collect, use, and protect your personal data.",
     "sections": {
       "collection": {
         "title": "Information Collection",
-        "content": "We collect information that you provide directly to us, including your name, email address, and profile information when you create an account. We also collect information about your language learning preferences and interactions within the app."
+        "intro": "We collect information that you provide directly to us, including:",
+        "items0": "Account information (name, email, password)",
+        "items1": "Profile information (bio, language preferences)",
+        "items2": "Content you post or share",
+        "items3": "Communications with other users"
       },
       "usage": {
         "title": "How We Use Your Information",
-        "content": "We use the information we collect to provide, maintain, and improve our services, to communicate with you, and to personalize your experience. This includes using your data to enhance our AI-powered features and language learning algorithms."
+        "intro": "We use the collected information to:",
+        "items0": "Provide and improve our services",
+        "items1": "Personalize your experience",
+        "items2": "Communicate with you",
+        "items3": "Ensure platform safety and security"
       },
       "security": {
         "title": "Data Security",
-        "content": "We implement appropriate security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security."
+        "content": "We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure."
       },
       "rights": {
         "title": "Your Rights",
-        "content": "You have the right to access, correct, or delete your personal information. You can also opt out of certain data collection and use. Contact us if you have any questions about your privacy rights."
+        "intro": "You have the right to:",
+        "items0": "Access your personal data",
+        "items1": "Correct inaccurate data",
+        "items2": "Request deletion of your data",
+        "items3": "Object to data processing"
       },
       "contact": {
         "title": "Contact Us",
-        "content": "If you have any questions about this Privacy Policy, please contact us at privacy@loqu.xyz"
+        "content": "If you have any questions about this Privacy Policy, please contact us at support@alohomora.company"
       }
     }
   },
+
   "termsOfService": {
     "title": "Terms of Service",
-    "lastUpdated": "Last Updated: March 15, 2024",
+    "description": "Table of Contents",
     "sections": {
+      "introduction": {
+        "title": "1. Introduction",
+        "content0": "These terms and conditions apply to the Loqu app (hereby referred to as Application) created by Alohomora Company (Service Provider) as a Freemium service.",
+        "content1": "By downloading or using the Application, you agree to the terms described herein. It is strongly advised that you read them carefully before using the Application."
+      },
       "acceptance": {
-        "title": "Acceptance of Terms",
-        "content": "By accessing or using Loqu, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the service."
+        "title": "2. Acceptance of Terms",
+        "content0": "By using the Application, you are automatically agreeing to these terms.\nUnauthorized copying or modification is strictly prohibited."
       },
-      "description": {
-        "title": "Description of Service",
-        "content": "Loqu is a language exchange platform that connects users for language learning and cultural exchange. We provide AI-powered features to enhance the language learning experience."
+      "intellectualProperty": {
+        "title": "3. Intellectual Property",
+        "content0": "You may not extract source code, translate, or create derivative versions of the Application.\nAll IP rights remain with the Service Provider."
       },
-      "userResponsibilities": {
-        "title": "User Responsibilities",
-        "content": "Users are responsible for maintaining the confidentiality of their account information and for all activities that occur under their account. Users must comply with all applicable laws and regulations."
+      "modifications": {
+        "title": "4. Modifications & Charges",
+        "content0": "The Service Provider reserves the right to modify the Application or charge for services at any time.\nAny changes will be clearly communicated to users."
       },
-      "content": {
-        "title": "User Content",
-        "content": "Users retain ownership of their content but grant Loqu a license to use, modify, and distribute the content within the service. Users are responsible for ensuring they have the rights to share their content."
+      "dataSecurity": {
+        "title": "5. Data & Security",
+        "content0": "Your personal data is stored and processed securely.\nDo not jailbreak/root your device as it may affect security and functionality."
       },
-      "termination": {
-        "title": "Termination",
-        "content": "We reserve the right to terminate or suspend access to our service immediately, without prior notice, for any breach of these Terms of Service."
+      "thirdParty": {
+        "title": "6. Third-Party Services",
+        "content0": "The Application uses third-party services. Refer to their terms:",
+        "links": {
+          "googlePlay": "Google Play Services",
+          "admob": "Google AdMob",
+          "analytics": "Google Analytics",
+          "expo": "Expo",
+          "revenuecat": "RevenueCat"
+        }
+      },
+      "connectivity": {
+        "title": "7. Connectivity & Limitations",
+        "content0": "The Application may not function properly without internet access.\nData charges may apply. Roaming fees are also your responsibility."
+      },
+      "device": {
+        "title": "8. Device Responsibilities",
+        "content0": "Ensure your device is charged and maintained.\nThe Service Provider is not liable for loss of service due to battery issues."
+      },
+      "updates": {
+        "title": "9. Updates & Termination",
+        "content0": "You agree to install updates to continue using the Application.\nThe Service Provider may stop providing the app at any time."
+      },
+      "changes": {
+        "title": "10. Changes to Terms",
+        "content0": "These terms may be updated. Please check this page periodically for updates.",
+        "effectiveDate": "Effective as of 2025-04-04"
+      },
+      "contact": {
+        "title": "11. Contact",
+        "content0": "If you have any questions, please contact us at:"
       }
     }
   },
+
   "communityGuidelines": {
     "title": "Community Guidelines",
-    "lastUpdated": "Last Updated: March 15, 2024",
     "sections": {
       "respect": {
-        "title": "Respect",
-        "items": [
-          "Be kind and respectful to all community members",
-          "Avoid offensive language and discriminatory content",
-          "Respect cultural differences and diverse perspectives",
-          "Listen actively and be open to learning from others"
-        ]
+        "title": "1. Respect and Kindness",
+        "items0": "Treat all members with dignity. Be patient and courteous, especially when interacting with learners who are still building proficiency in a new language.",
+        "items1": "Avoid using offensive or discriminatory language, including slurs, insults, or remarks that target someone’s gender, ethnicity, race, religion, sexual orientation, or physical/mental abilities.",
+        "items2": "When offering corrections or suggestions, do so politely and constructively."
       },
       "inclusivity": {
-        "title": "Inclusivity",
-        "items": [
-          "Welcome members from all backgrounds and skill levels",
-          "Create an environment where everyone feels comfortable participating",
-          "Support and encourage fellow language learners",
-          "Share resources and knowledge generously"
-        ]
+        "title": "2. Inclusivity and Welcoming Culture",
+        "items0": "Encourage a supportive environment where everyone feels safe sharing thoughts, questions, and cultural perspectives.",
+        "items1": "Acknowledge and celebrate cultural differences. Ask questions and listen with empathy—remember that language is closely tied to culture.",
+        "items2": "Strive to make space for diverse voices and experiences in discussions. If you notice someone being left out or uncomfortable, consider reaching out and inviting them to participate."
       },
       "communication": {
-        "title": "Communication",
-        "items": [
-          "Use clear and appropriate language",
-          "Be patient with language learners",
-          "Provide constructive feedback when requested",
-          "Share cultural context when relevant"
-        ]
+        "title": "3. Appropriate and Constructive Communication",
+        "items0": "Focus on language learning and cultural exchange. Share helpful resources, experiences, and constructive feedback.",
+        "items1": "Avoid spamming, self-promotion, or off-topic discussions that detract from the community’s main purpose.",
+        "items2": "Refrain from sharing explicit or overly graphic content. Keep discussions professional and courteous."
       },
       "safety": {
-        "title": "Safety",
-        "items": [
-          "Protect your personal information",
-          "Report inappropriate behavior or content",
-          "Follow platform safety guidelines",
-          "Use the platform's reporting features when necessary"
-        ]
+        "title": "4. Safety and Privacy",
+        "items0": "Respect members’ personal boundaries and privacy. Do not pressure anyone to share more personal information than they are comfortable with.",
+        "items1": "Avoid posting private conversations or sensitive data (e.g., personal contact information, financial data) in public forums or group discussions.",
+        "items2": "If you see content or behavior that makes you feel unsafe or violates our guidelines, report it immediately through the appropriate channel."
+      },
+      "harassment": {
+        "title": "5. No Tolerance for Harassment or Hate Speech",
+        "items0": "Harassment, bullying, intimidation, or targeted attacks against any individual or group are strictly prohibited.",
+        "items1": "Hate speech and threats of violence or harm will lead to immediate action, which may include content removal or account suspension."
+      },
+      "conflictResolution": {
+        "title": "6. Constructive Conflict Resolution",
+        "items0": "Healthy debates can help people learn, but keep disagreements respectful. Attack ideas rather than individuals.",
+        "items1": "If a dispute escalates, use the platform’s conflict-resolution tools or reach out to moderators for guidance.",
+        "items2": "Encourage calm dialogue. In cross-cultural interactions, differences of perspective are natural. Approach these differences with an open mind."
+      },
+      "reporting": {
+        "title": "7. Reporting and Enforcement",
+        "items0": "We rely on community members to help us maintain a positive space. If you witness or experience harassment, hate speech, or any violation of these guidelines, please report it to our moderation team.",
+        "items1": "Our moderation team will review all reports. Appropriate actions—such as content removal, warnings, or account suspension—will be taken promptly to address violations."
+      },
+      "improvement": {
+        "title": "8. Continuous Improvement",
+        "items0": "Recognize that our community evolves as language-learning trends and cultural dynamics change. We welcome feedback on our guidelines to better serve and protect everyone.",
+        "items1": "Updates to these guidelines will be posted and highlighted. Members are responsible for familiarizing themselves with the latest policies."
+      },
+      "purpose": {
+        "title": "9. Platform Purpose First",
+        "items0": "Keep interactions aligned with the community’s core goal: language learning and cultural exchange.",
+        "items1": "Stay focused and respectful of the space we’re all building together.",
+        "items2": "Avoid derailing discussions or dominating conversations in ways that prevent others from participating."
+      },
+      "roleModel": {
+        "title": "10. Be a Role Model",
+        "items0": "Set a positive example for others. Encourage good behavior by being inclusive, helpful, and respectful in your own interactions.",
+        "items1": "Small actions—like welcoming a new member or giving constructive feedback—help shape the overall culture of Loqu."
       }
     }
   }
-} 
-
+}
