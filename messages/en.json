@@ -1,0 +1,112 @@
+{
+  "main": {
+    "title": "AI-supercharged Language Exchange",
+    "description": "Discover a vibrant, feed-based community where you can share posts, follow friends, and learn languages beyond basic greetings. Our AI-powered features make language exchange fun and easy.\nJust start Loqu now!",
+    "buttons": {
+      "ios": "iOS",
+      "android": "Android",
+      "web": "Web"
+    }
+  },
+  "footer": {
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "communityGuidelines": "Community Guidelines",
+    "copyright": "© 2024 Loqu. All rights reserved."
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: March 15, 2024",
+    "sections": {
+      "collection": {
+        "title": "Information Collection",
+        "content": "We collect information that you provide directly to us, including your name, email address, and profile information when you create an account. We also collect information about your language learning preferences and interactions within the app."
+      },
+      "usage": {
+        "title": "How We Use Your Information",
+        "content": "We use the information we collect to provide, maintain, and improve our services, to communicate with you, and to personalize your experience. This includes using your data to enhance our AI-powered features and language learning algorithms."
+      },
+      "security": {
+        "title": "Data Security",
+        "content": "We implement appropriate security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure, and we cannot guarantee absolute security."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "content": "You have the right to access, correct, or delete your personal information. You can also opt out of certain data collection and use. Contact us if you have any questions about your privacy rights."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at privacy@loqu.xyz"
+      }
+    }
+  },
+  "termsOfService": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: March 15, 2024",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing or using Loqu, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the service."
+      },
+      "description": {
+        "title": "Description of Service",
+        "content": "Loqu is a language exchange platform that connects users for language learning and cultural exchange. We provide AI-powered features to enhance the language learning experience."
+      },
+      "userResponsibilities": {
+        "title": "User Responsibilities",
+        "content": "Users are responsible for maintaining the confidentiality of their account information and for all activities that occur under their account. Users must comply with all applicable laws and regulations."
+      },
+      "content": {
+        "title": "User Content",
+        "content": "Users retain ownership of their content but grant Loqu a license to use, modify, and distribute the content within the service. Users are responsible for ensuring they have the rights to share their content."
+      },
+      "termination": {
+        "title": "Termination",
+        "content": "We reserve the right to terminate or suspend access to our service immediately, without prior notice, for any breach of these Terms of Service."
+      }
+    }
+  },
+  "communityGuidelines": {
+    "title": "Community Guidelines",
+    "lastUpdated": "Last Updated: March 15, 2024",
+    "sections": {
+      "respect": {
+        "title": "Respect",
+        "items": [
+          "Be kind and respectful to all community members",
+          "Avoid offensive language and discriminatory content",
+          "Respect cultural differences and diverse perspectives",
+          "Listen actively and be open to learning from others"
+        ]
+      },
+      "inclusivity": {
+        "title": "Inclusivity",
+        "items": [
+          "Welcome members from all backgrounds and skill levels",
+          "Create an environment where everyone feels comfortable participating",
+          "Support and encourage fellow language learners",
+          "Share resources and knowledge generously"
+        ]
+      },
+      "communication": {
+        "title": "Communication",
+        "items": [
+          "Use clear and appropriate language",
+          "Be patient with language learners",
+          "Provide constructive feedback when requested",
+          "Share cultural context when relevant"
+        ]
+      },
+      "safety": {
+        "title": "Safety",
+        "items": [
+          "Protect your personal information",
+          "Report inappropriate behavior or content",
+          "Follow platform safety guidelines",
+          "Use the platform's reporting features when necessary"
+        ]
+      }
+    }
+  }
+} 
+

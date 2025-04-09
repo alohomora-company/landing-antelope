@@ -1,14 +1,11 @@
-"use client";
-
 import { Button } from "@/components/ui/button";
 import Footer from "@/components/Footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
-
-// import useTranslation from "next-translate/useTranslation";
+import { useTranslations } from "next-intl";
 
 export default function Home() {
-  // const { t } = useTranslation("common");
+  const t = useTranslations();
   return (
     <>
       <div className="flex flex-col min-h-screen max-w-[1664px] mx-auto bg-background">
@@ -28,9 +25,7 @@ export default function Home() {
           <div className="relative w-[100%] max-w-[500px]">
             <div className="absolute inset-0 flex flex-col items-center justify-between pt-2 pb-8 text-center z-10 max-w-[500px]">
               <h1 className="text-3xl font-bold text-white font-sans">
-                Experience the most advanced
-                <br />
-                language exchange with Loqu
+                {t("main.title")}
               </h1>
             </div>
           </div>
@@ -50,13 +45,7 @@ export default function Home() {
           <div className="relative w-[100%] max-w-[900px]">
             <div className="flex flex-col items-center w-[100%]">
               <p className="text-md text-white text-center leading-relaxed">
-                Discover a vibrant, feed-based community where you can share
-                posts, follow friends, and learn
-                <br />
-                languages beyond basic greetings. Our AI-powered features make
-                language exchange fun and easy.
-                <br />
-                Just start Loqu now!
+                {t("main.description")}
               </p>
             </div>
           </div>
