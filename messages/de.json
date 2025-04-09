@@ -1,0 +1,178 @@
+{
+  "main": {
+    "title": "KI-gestützter Sprachaustausch",
+    "description": "Entdecke eine lebendige, feed-basierte Community, in der du Beiträge teilen, Freunden folgen und Sprachen über einfache Begrüßungen hinaus lernen kannst. Unsere KI-basierten Funktionen machen den Sprachaustausch einfach und unterhaltsam.\nStarte jetzt mit Loqu!",
+    "buttons": {
+      "ios": "iOS",
+      "android": "Android",
+      "web": "Web"
+    }
+  },
+  "footer": {
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen",
+    "communityGuidelines": "Community-Richtlinien",
+    "copyright": "Copyright 2025 © Alohomora Company. Alle Rechte vorbehalten."
+  },
+
+  "privacyPolicy": {
+    "title": "Datenschutzerklärung",
+    "description": "Bei Loqu nehmen wir den Schutz deiner Daten sehr ernst. Diese Datenschutzerklärung erläutert, wie wir deine persönlichen Daten erfassen, verwenden und schützen.",
+    "sections": {
+      "collection": {
+        "title": "Datenerfassung",
+        "intro": "Wir erfassen Informationen, die du uns direkt zur Verfügung stellst, darunter:",
+        "items0": "Kontoinformationen (Name, E-Mail, Passwort)",
+        "items1": "Profilinformationen (Biografie, Spracheinstellungen)",
+        "items2": "Inhalte, die du postest oder teilst",
+        "items3": "Kommunikation mit anderen Nutzern"
+      },
+      "usage": {
+        "title": "Verwendung deiner Daten",
+        "intro": "Wir verwenden die gesammelten Daten, um:",
+        "items0": "unsere Dienste bereitzustellen und zu verbessern",
+        "items1": "deine Nutzererfahrung zu personalisieren",
+        "items2": "mit dir zu kommunizieren",
+        "items3": "die Sicherheit und Integrität der Plattform zu gewährleisten"
+      },
+      "security": {
+        "title": "Datensicherheit",
+        "content": "Wir setzen geeignete Sicherheitsmaßnahmen ein, um deine persönlichen Daten vor unbefugtem Zugriff, Veränderung oder Offenlegung zu schützen."
+      },
+      "rights": {
+        "title": "Deine Rechte",
+        "intro": "Du hast das Recht,",
+        "items0": "auf deine personenbezogenen Daten zuzugreifen",
+        "items1": "unrichtige Daten korrigieren zu lassen",
+        "items2": "die Löschung deiner Daten zu verlangen",
+        "items3": "der Verarbeitung deiner Daten zu widersprechen"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Wenn du Fragen zu dieser Datenschutzerklärung hast, kontaktiere uns bitte unter support@alohomora.company"
+      }
+    }
+  },
+
+  "termsOfService": {
+    "title": "Nutzungsbedingungen",
+    "description": "Inhaltsverzeichnis",
+    "sections": {
+      "introduction": {
+        "title": "1. Einführung",
+        "content0": "Diese Bedingungen gelten für die Loqu-App (im Folgenden „Anwendung“ genannt), die von der Alohomora Company (dem „Dienstanbieter“) als Freemium-Dienst angeboten wird.",
+        "content1": "Durch das Herunterladen oder die Nutzung der Anwendung stimmst du diesen Bedingungen zu. Bitte lies sie sorgfältig durch, bevor du die Anwendung nutzt."
+      },
+      "acceptance": {
+        "title": "2. Zustimmung zu den Bedingungen",
+        "content0": "Durch die Nutzung der Anwendung erklärst du dich automatisch mit diesen Bedingungen einverstanden.\nDas unbefugte Kopieren oder Verändern ist strengstens untersagt."
+      },
+      "intellectualProperty": {
+        "title": "3. Geistiges Eigentum",
+        "content0": "Du darfst den Quellcode der Anwendung nicht extrahieren, übersetzen oder abgeleitete Versionen erstellen.\nAlle geistigen Eigentumsrechte verbleiben beim Dienstanbieter."
+      },
+      "modifications": {
+        "title": "4. Änderungen und Gebühren",
+        "content0": "Der Dienstanbieter behält sich das Recht vor, die Anwendung jederzeit zu ändern oder Gebühren zu erheben.\nAlle Änderungen werden den Nutzern klar mitgeteilt."
+      },
+      "dataSecurity": {
+        "title": "5. Daten & Sicherheit",
+        "content0": "Deine personenbezogenen Daten werden sicher gespeichert und verarbeitet.\nBitte führe kein Jailbreak oder Rooting auf deinem Gerät durch, da dies die Sicherheit beeinträchtigen kann."
+      },
+      "thirdParty": {
+        "title": "6. Dienste von Drittanbietern",
+        "content0": "Die Anwendung verwendet Dienste von Drittanbietern. Bitte beachte deren Nutzungsbedingungen:",
+        "links": {
+          "googlePlay": "Google Play-Dienste",
+          "admob": "Google AdMob",
+          "analytics": "Google Analytics",
+          "expo": "Expo",
+          "revenuecat": "RevenueCat"
+        }
+      },
+      "connectivity": {
+        "title": "7. Konnektivität & Einschränkungen",
+        "content0": "Die Anwendung funktioniert möglicherweise nicht ordnungsgemäß ohne Internetverbindung.\nDatenkosten können anfallen. Roaming-Gebühren liegen in deiner Verantwortung."
+      },
+      "device": {
+        "title": "8. Geräteverantwortung",
+        "content0": "Stelle sicher, dass dein Gerät geladen und funktionsfähig ist.\nDer Dienstanbieter haftet nicht für Ausfälle aufgrund von Batterieproblemen."
+      },
+      "updates": {
+        "title": "9. Updates & Beendigung",
+        "content0": "Du erklärst dich damit einverstanden, Updates zu installieren, um die Anwendung weiterhin nutzen zu können.\nDer Dienstanbieter kann die Bereitstellung der App jederzeit einstellen."
+      },
+      "changes": {
+        "title": "10. Änderungen der Bedingungen",
+        "content0": "Diese Bedingungen können aktualisiert werden. Bitte überprüfe diese Seite regelmäßig.",
+        "effectiveDate": "Gültig ab: 2025-04-04"
+      },
+      "contact": {
+        "title": "11. Kontakt",
+        "content0": "Wenn du Fragen hast, kontaktiere uns bitte unter:"
+      }
+    }
+  },
+
+  "communityGuidelines": {
+    "title": "Community-Richtlinien",
+    "sections": {
+      "respect": {
+        "title": "1. Respekt und Freundlichkeit",
+        "items0": "Behandle alle Mitglieder mit Würde. Sei geduldig und höflich – besonders gegenüber Lernenden.",
+        "items1": "Vermeide beleidigende oder diskriminierende Sprache, einschließlich Beleidigungen oder herabsetzender Bemerkungen zu Geschlecht, Herkunft, Religion, Sexualität oder Behinderung.",
+        "items2": "Gib Korrekturen und Vorschläge stets respektvoll und konstruktiv."
+      },
+      "inclusivity": {
+        "title": "2. Inklusivität und Willkommenskultur",
+        "items0": "Schaffe eine unterstützende Umgebung, in der sich alle sicher fühlen, Gedanken und kulturelle Perspektiven zu teilen.",
+        "items1": "Anerkenne und feiere kulturelle Unterschiede. Höre mit Empathie zu – Sprache und Kultur sind eng miteinander verbunden.",
+        "items2": "Gib vielfältigen Stimmen Raum. Wenn jemand ausgegrenzt wirkt, lade ihn zur Teilnahme ein."
+      },
+      "communication": {
+        "title": "3. Angemessene und konstruktive Kommunikation",
+        "items0": "Konzentriere dich auf das Sprachenlernen und den kulturellen Austausch. Teile hilfreiche Ressourcen und Erfahrungen.",
+        "items1": "Vermeide Spam, Eigenwerbung oder themenfremde Diskussionen.",
+        "items2": "Verzichte auf explizite oder unangemessene Inhalte. Bleibe professionell und respektvoll."
+      },
+      "safety": {
+        "title": "4. Sicherheit und Datenschutz",
+        "items0": "Respektiere die Privatsphäre anderer. Dränge niemanden, persönliche Informationen preiszugeben.",
+        "items1": "Veröffentliche keine privaten Gespräche oder sensiblen Daten in öffentlichen Bereichen.",
+        "items2": "Wenn du problematische Inhalte siehst, melde sie bitte umgehend über den entsprechenden Kanal."
+      },
+      "harassment": {
+        "title": "5. Keine Toleranz für Belästigung",
+        "items0": "Belästigung, Mobbing oder gezielte Angriffe gegen Einzelpersonen oder Gruppen sind streng verboten.",
+        "items1": "Hassrede oder Gewaltandrohungen führen zu sofortigen Maßnahmen wie Inhaltslöschung oder Kontosperrung."
+      },
+      "conflictResolution": {
+        "title": "6. Konstruktive Konfliktlösung",
+        "items0": "Diskussionen sind erlaubt, solange sie respektvoll bleiben. Kritisiere Ideen, nicht Personen.",
+        "items1": "Wenn ein Konflikt eskaliert, nutze die Moderationsfunktionen oder wende dich an das Team.",
+        "items2": "Bleibe ruhig. Kulturelle Unterschiede sind normal – begegne ihnen mit Offenheit."
+      },
+      "reporting": {
+        "title": "7. Meldung und Durchsetzung",
+        "items0": "Wir zählen auf unsere Community. Melde Belästigungen, Hassrede oder Regelverstöße an unser Moderationsteam.",
+        "items1": "Das Team prüft alle Meldungen sorgfältig und ergreift angemessene Maßnahmen."
+      },
+      "improvement": {
+        "title": "8. Stetige Verbesserung",
+        "items0": "Unsere Community entwickelt sich mit den Trends im Sprachlernen und kulturellen Wandel. Feedback ist willkommen.",
+        "items1": "Änderungen an den Richtlinien werden veröffentlicht. Bleibe auf dem neuesten Stand."
+      },
+      "purpose": {
+        "title": "9. Ziel der Plattform im Blick",
+        "items0": "Halte deine Interaktionen auf das Ziel ausgerichtet: Sprachaustausch und kulturelles Lernen.",
+        "items1": "Respektiere den gemeinsamen Raum, den wir aufbauen.",
+        "items2": "Vermeide es, Gespräche zu dominieren oder vom Thema abzulenken."
+      },
+      "roleModel": {
+        "title": "10. Sei ein Vorbild",
+        "items0": "Gib ein gutes Beispiel. Sei inklusiv, hilfsbereit und respektvoll.",
+        "items1": "Kleine Gesten – wie neue Mitglieder zu begrüßen – prägen die Kultur von Loqu."
+      }
+    }
+  }
+}
