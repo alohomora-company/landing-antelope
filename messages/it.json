@@ -1,6 +1,9 @@
 {
   "main": {
-    "title": "Scambio linguistico potenziato dall'IA",
+    "title": {
+      "line1": "Potenziato dall'IA",
+      "line2": "Scambio Linguistico"
+    },
     "description": "Scopri una community dinamica basata sui post, dove puoi condividere contenuti, seguire gli amici e imparare nuove lingue oltre i saluti di base. Le nostre funzionalità basate sull’intelligenza artificiale rendono lo scambio linguistico semplice e divertente.\nInizia ora con Loqu!",
     "buttons": {
       "ios": "iOS",

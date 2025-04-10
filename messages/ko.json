@@ -1,6 +1,9 @@
 {
   "main": {
-    "title": "AI로 강화된 언어 교환",
+    "title": {
+      "line1": "AI 기반",
+      "line2": "언어 교환"
+    },
     "description": "게시글을 공유하고 친구를 팔로우하며 인사말을 넘어서는 언어를 배울 수 있는 생동감 넘치는 피드 기반 커뮤니티를 경험해보세요. AI 기능이 언어 교환을 쉽고 재미있게 만들어줍니다.\n지금 바로 Loqu를 시작하세요!",
     "buttons": {
       "ios": "iOS",
@@ -60,7 +63,7 @@
     "sections": {
       "introduction": {
         "title": "1. 소개",
-        "content0": "본 약관은 Alohomora Company(서비스 제공자)가 제공하는 Loqu 앱(이하 ‘애플리케이션’)에 적용되며, 프리미엄+무료(Freemium) 서비스입니다.",
+        "content0": "본 약관은 Alohomora Company(서비스 제공자)가 제공하는 Loqu 앱(이하 '애플리케이션')에 적용되며, 프리미엄+무료(Freemium) 서비스입니다.",
         "content1": "애플리케이션을 다운로드하거나 사용하는 경우, 본 약관에 동의하는 것으로 간주됩니다. 사용 전에 반드시 주의 깊게 읽어주시기 바랍니다."
       },
       "acceptance": {

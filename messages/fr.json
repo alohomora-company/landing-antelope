@@ -1,7 +1,10 @@
 {
   "main": {
-    "title": "Échange linguistique propulsé par l'IA",
-    "description": "Découvrez une communauté dynamique basée sur les fils d’actualité où vous pouvez partager des publications, suivre vos amis et apprendre des langues au-delà des salutations de base. Nos fonctionnalités alimentées par l'IA rendent l'échange linguistique amusant et facile.\nCommencez avec Loqu dès maintenant !",
+    "title": {
+      "line1": "Propulsé par l'IA",
+      "line2": "Échange Linguistique"
+    },
+    "description": "Découvrez une communauté dynamique basée sur les fils d'actualité où vous pouvez partager des publications, suivre vos amis et apprendre des langues au-delà des salutations de base. Nos fonctionnalités alimentées par l'IA rendent l'échange linguistique amusant et facile.\nCommencez avec Loqu dès maintenant !",
     "buttons": {
       "ios": "iOS",
       "android": "Android",
@@ -10,7 +13,7 @@
   },
   "footer": {
     "privacyPolicy": "Politique de confidentialité",
-    "termsOfService": "Conditions d’utilisation",
+    "termsOfService": "Conditions d'utilisation",
     "communityGuidelines": "Règles de la communauté",
     "copyright": "Copyright 2025 © Alohomora Company. Tous droits réservés."
   },
@@ -55,25 +58,25 @@
   },
 
   "termsOfService": {
-    "title": "Conditions d’utilisation",
+    "title": "Conditions d'utilisation",
     "description": "Table des matières",
     "sections": {
       "introduction": {
         "title": "1. Introduction",
-        "content0": "Les présentes conditions s'appliquent à l'application Loqu (ci-après « l’Application »), créée par Alohomora Company (le « Prestataire de services ») en tant que service freemium.",
-        "content1": "En téléchargeant ou en utilisant l’Application, vous acceptez les présentes conditions. Il est fortement recommandé de les lire attentivement avant toute utilisation."
+        "content0": "Les présentes conditions s'appliquent à l'application Loqu (ci-après « l'Application »), créée par Alohomora Company (le « Prestataire de services ») en tant que service freemium.",
+        "content1": "En téléchargeant ou en utilisant l'Application, vous acceptez les présentes conditions. Il est fortement recommandé de les lire attentivement avant toute utilisation."
       },
       "acceptance": {
         "title": "2. Acceptation des conditions",
-        "content0": "En utilisant l’Application, vous acceptez automatiquement ces conditions.\nToute copie ou modification non autorisée est strictement interdite."
+        "content0": "En utilisant l'Application, vous acceptez automatiquement ces conditions.\nToute copie ou modification non autorisée est strictement interdite."
       },
       "intellectualProperty": {
         "title": "3. Propriété intellectuelle",
-        "content0": "Vous ne pouvez pas extraire le code source, le traduire ou créer des versions dérivées de l’Application.\nTous les droits de propriété intellectuelle restent la propriété du Prestataire."
+        "content0": "Vous ne pouvez pas extraire le code source, le traduire ou créer des versions dérivées de l'Application.\nTous les droits de propriété intellectuelle restent la propriété du Prestataire."
       },
       "modifications": {
         "title": "4. Modifications et frais",
-        "content0": "Le Prestataire se réserve le droit de modifier l’Application ou d’imposer des frais à tout moment.\nLes utilisateurs seront informés clairement de tout changement."
+        "content0": "Le Prestataire se réserve le droit de modifier l'Application ou d'imposer des frais à tout moment.\nLes utilisateurs seront informés clairement de tout changement."
       },
       "dataSecurity": {
         "title": "5. Données et sécurité",
@@ -81,7 +84,7 @@
       },
       "thirdParty": {
         "title": "6. Services tiers",
-        "content0": "L’Application utilise des services tiers. Veuillez consulter leurs conditions :",
+        "content0": "L'Application utilise des services tiers. Veuillez consulter leurs conditions :",
         "links": {
           "googlePlay": "Services Google Play",
           "admob": "Google AdMob",
@@ -92,20 +95,20 @@
       },
       "connectivity": {
         "title": "7. Connectivité et limitations",
-        "content0": "L’Application peut ne pas fonctionner correctement sans accès à Internet.\nDes frais de données peuvent s’appliquer. Les frais d’itinérance sont à votre charge."
+        "content0": "L'Application peut ne pas fonctionner correctement sans accès à Internet.\nDes frais de données peuvent s'appliquer. Les frais d'itinérance sont à votre charge."
       },
       "device": {
-        "title": "8. Responsabilités de l’appareil",
-        "content0": "Assurez-vous que votre appareil est chargé et en bon état.\nLe Prestataire n’est pas responsable des interruptions de service dues à des problèmes de batterie."
+        "title": "8. Responsabilités de l'appareil",
+        "content0": "Assurez-vous que votre appareil est chargé et en bon état.\nLe Prestataire n'est pas responsable des interruptions de service dues à des problèmes de batterie."
       },
       "updates": {
         "title": "9. Mises à jour et résiliation",
-        "content0": "Vous acceptez d’installer les mises à jour nécessaires pour continuer à utiliser l’Application.\nLe Prestataire peut cesser de fournir l'application à tout moment."
+        "content0": "Vous acceptez d'installer les mises à jour nécessaires pour continuer à utiliser l'Application.\nLe Prestataire peut cesser de fournir l'application à tout moment."
       },
       "changes": {
         "title": "10. Modifications des conditions",
         "content0": "Ces conditions peuvent être mises à jour. Veuillez consulter cette page régulièrement.",
-        "effectiveDate": "Date d’effet : 2025-04-04"
+        "effectiveDate": "Date d'effet : 2025-04-04"
       },
       "contact": {
         "title": "11. Contact",
@@ -131,25 +134,25 @@
       },
       "communication": {
         "title": "3. Communication appropriée et constructive",
-        "items0": "Concentrez-vous sur l’apprentissage des langues et l’échange culturel. Partagez des ressources utiles et vos expériences.",
-        "items1": "Évitez le spam, l’auto-promotion ou les sujets hors contexte.",
+        "items0": "Concentrez-vous sur l'apprentissage des langues et l'échange culturel. Partagez des ressources utiles et vos expériences.",
+        "items1": "Évitez le spam, l'auto-promotion ou les sujets hors contexte.",
         "items2": "Ne publiez pas de contenu explicite ou inapproprié. Gardez un ton professionnel et respectueux."
       },
       "safety": {
         "title": "4. Sécurité et vie privée",
         "items0": "Respectez la vie privée des autres membres. Ne forcez personne à partager des informations personnelles.",
-        "items1": "Ne publiez pas de conversations privées ou d’informations sensibles dans des espaces publics.",
+        "items1": "Ne publiez pas de conversations privées ou d'informations sensibles dans des espaces publics.",
         "items2": "Signalez immédiatement tout comportement ou contenu dangereux ou inapproprié."
       },
       "harassment": {
         "title": "5. Tolérance zéro pour le harcèlement",
-        "items0": "Le harcèlement, l’intimidation ou les attaques ciblées sont strictement interdits.",
+        "items0": "Le harcèlement, l'intimidation ou les attaques ciblées sont strictement interdits.",
         "items1": "Les discours haineux ou menaces entraîneront une action immédiate, pouvant inclure la suppression de contenu ou la suspension de compte."
       },
       "conflictResolution": {
         "title": "6. Résolution constructive des conflits",
-        "items0": "Les débats sont acceptables tant qu’ils restent respectueux. Attaquez les idées, pas les personnes.",
-        "items1": "En cas d’escalade, utilisez les outils de résolution de conflit ou contactez les modérateurs.",
+        "items0": "Les débats sont acceptables tant qu'ils restent respectueux. Attaquez les idées, pas les personnes.",
+        "items1": "En cas d'escalade, utilisez les outils de résolution de conflit ou contactez les modérateurs.",
         "items2": "Restez calme. Les différences culturelles sont normales. Gardez l'esprit ouvert."
       },
       "reporting": {
@@ -163,14 +166,14 @@
         "items1": "Les mises à jour des règles seront publiées. Il est de votre responsabilité de rester informé."
       },
       "purpose": {
-        "title": "9. Rester centré sur l’objectif",
-        "items0": "Gardez vos interactions alignées avec l’objectif : apprentissage linguistique et échange culturel.",
-        "items1": "Respectez l’espace que nous construisons ensemble.",
-        "items2": "Ne monopolisez pas les discussions ni n’empêchez les autres de participer."
+        "title": "9. Rester centré sur l'objectif",
+        "items0": "Gardez vos interactions alignées avec l'objectif : apprentissage linguistique et échange culturel.",
+        "items1": "Respectez l'espace que nous construisons ensemble.",
+        "items2": "Ne monopolisez pas les discussions ni n'empêchez les autres de participer."
       },
       "roleModel": {
         "title": "10. Soyez un modèle",
-        "items0": "Montrez l’exemple par votre comportement inclusif, serviable et respectueux.",
+        "items0": "Montrez l'exemple par votre comportement inclusif, serviable et respectueux.",
         "items1": "Des gestes simples – comme accueillir un nouveau membre – façonnent la culture de Loqu."
       }
     }

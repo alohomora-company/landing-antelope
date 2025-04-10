@@ -1,6 +1,9 @@
 {
   "main": {
-    "title": "Troca de idiomas impulsionada por IA",
+    "title": {
+      "line1": "Impulsionado por IA",
+      "line2": "Intercâmbio de Idiomas"
+    },
     "description": "Descobre uma comunidade dinâmica, baseada em publicações, onde podes partilhar conteúdos, seguir amigos e aprender idiomas para além das saudações básicas. As nossas funcionalidades com inteligência artificial tornam a aprendizagem divertida e acessível.\nComeça já com o Loqu!",
     "buttons": {
       "ios": "iOS",

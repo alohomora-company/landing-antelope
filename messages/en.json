@@ -1,6 +1,9 @@
 {
   "main": {
-    "title": "AI-supercharged Language Exchange",
+    "title": {
+      "line1": "AI-supercharged",
+      "line2": "Language Exchange"
+    },
     "description": "Discover a vibrant, feed-based community where you can share posts, follow friends, and learn languages beyond basic greetings. Our AI-powered features make language exchange fun and easy.\nJust start Loqu now!",
     "buttons": {
       "ios": "iOS",

@@ -1,6 +1,9 @@
 {
   "main": {
-    "title": "AI驱动的语言交换",
+    "title": {
+      "line1": "AI驱动",
+      "line2": "语言交换"
+    },
     "description": "探索一个充满活力的动态社区，你可以在这里分享帖子、关注朋友，并学习超越问候语的语言。我们的AI功能让语言交换变得有趣又轻松。\n现在就开始使用 Loqu 吧！",
     "buttons": {
       "ios": "iOS",
@@ -60,7 +63,7 @@
     "sections": {
       "introduction": {
         "title": "1. 引言",
-        "content0": "本条款适用于 Alohomora 公司（以下简称“服务提供商”）所提供的 Loqu 应用（以下简称“应用程序”），该应用为 Freemium 模式。",
+        "content0": "本条款适用于 Alohomora 公司（以下简称\"服务提供商\"）所提供的 Loqu 应用（以下简称\"应用程序\"），该应用为 Freemium 模式。",
         "content1": "下载或使用本应用，即表示您同意本条款。强烈建议在使用前仔细阅读。"
       },
       "acceptance": {

@@ -1,6 +1,9 @@
 {
   "main": {
-    "title": "KI-gestützter Sprachaustausch",
+    "title": {
+      "line1": "KI-gestärkt",
+      "line2": "Sprachaustausch"
+    },
     "description": "Entdecke eine lebendige, feed-basierte Community, in der du Beiträge teilen, Freunden folgen und Sprachen über einfache Begrüßungen hinaus lernen kannst. Unsere KI-basierten Funktionen machen den Sprachaustausch einfach und unterhaltsam.\nStarte jetzt mit Loqu!",
     "buttons": {
       "ios": "iOS",
@@ -60,7 +63,7 @@
     "sections": {
       "introduction": {
         "title": "1. Einführung",
-        "content0": "Diese Bedingungen gelten für die Loqu-App (im Folgenden „Anwendung“ genannt), die von der Alohomora Company (dem „Dienstanbieter“) als Freemium-Dienst angeboten wird.",
+        "content0": "Diese Bedingungen gelten für die Loqu-App (im Folgenden \"Anwendung\" genannt), die von der Alohomora Company (dem \"Dienstanbieter\") als Freemium-Dienst angeboten wird.",
         "content1": "Durch das Herunterladen oder die Nutzung der Anwendung stimmst du diesen Bedingungen zu. Bitte lies sie sorgfältig durch, bevor du die Anwendung nutzt."
       },
       "acceptance": {
