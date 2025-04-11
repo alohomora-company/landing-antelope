@@ -22,8 +22,9 @@ export const metadata: Metadata = {
       {
         url: "/assets/thumbnail.png",
         width: 1200,
-        height: 630,
+        height: 600,
         alt: "Loqu - AI-Supercharged Language Exchange",
+        type: "image/png",
       },
     ],
     type: "website",
@@ -39,8 +40,9 @@ export const metadata: Metadata = {
       {
         url: "/assets/thumbnail.png",
         width: 1200,
-        height: 630,
+        height: 600,
         alt: "Loqu - AI-Supercharged Language Exchange",
+        type: "image/png",
       },
     ],
   },
