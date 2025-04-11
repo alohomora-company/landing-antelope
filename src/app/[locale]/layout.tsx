@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
   metadataBase: new URL("https://www.loqu.xyz"),
   openGraph: {
-    title: "Loqu - Language Exchange Social Network",
+    title: "Loqu - AI-Supercharged Language Exchange",
     description:
-      "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
+      "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-supercharged features.",
     url: "https://www.loqu.xyz",
     siteName: "Loqu",
     images: [
