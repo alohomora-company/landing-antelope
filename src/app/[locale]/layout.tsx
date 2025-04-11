@@ -11,6 +11,27 @@ export const metadata: Metadata = {
   title: "Loqu - Language Exchange Social Network",
   description:
     "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
+  openGraph: {
+    title: "Loqu - Language Exchange Social Network",
+    description:
+      "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
+    images: [
+      {
+        url: "/assets/thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "Loqu - Language Exchange Social Network",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Loqu - Language Exchange Social Network",
+    description:
+      "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
+    images: ["/assets/thumbnail.png"],
+  },
 };
 
 export default async function LocaleLayout({
