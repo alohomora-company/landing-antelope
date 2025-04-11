@@ -8,9 +8,9 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Loqu - Language Exchange Social Network",
+  title: "Loqu - AI-Supercharged Language Exchange",
   description:
-    "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
+    "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-Supercharged features.",
   metadataBase: new URL("https://www.loqu.xyz"),
   openGraph: {
     title: "Loqu - AI-Supercharged Language Exchange",
@@ -23,16 +23,16 @@ export const metadata: Metadata = {
         url: "https://www.loqu.xyz/assets/thumbnail.png",
         width: 1200,
         height: 630,
-        alt: "Loqu - Language Exchange Social Network",
+        alt: "Loqu - AI-Supercharged Language Exchange",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Loqu - Language Exchange Social Network",
+    title: "Loqu - AI-Supercharged Language Exchange",
     description:
-      "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
+      "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-Supercharged features.",
     site: "@loqu",
     creator: "@loqu",
     images: ["https://www.loqu.xyz/assets/thumbnail.png"],
