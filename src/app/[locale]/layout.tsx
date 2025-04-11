@@ -11,13 +11,16 @@ export const metadata: Metadata = {
   title: "Loqu - Language Exchange Social Network",
   description:
     "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
+  metadataBase: new URL("https://www.loqu.xyz"),
   openGraph: {
     title: "Loqu - Language Exchange Social Network",
     description:
       "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
+    url: "https://www.loqu.xyz",
+    siteName: "Loqu",
     images: [
       {
-        url: "/assets/thumbnail.png",
+        url: "https://www.loqu.xyz/assets/thumbnail.png",
         width: 1200,
         height: 630,
         alt: "Loqu - Language Exchange Social Network",
@@ -30,7 +33,9 @@ export const metadata: Metadata = {
     title: "Loqu - Language Exchange Social Network",
     description:
       "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-powered features.",
-    images: ["/assets/thumbnail.png"],
+    site: "@loqu",
+    creator: "@loqu",
+    images: ["https://www.loqu.xyz/assets/thumbnail.png"],
   },
 };
 
