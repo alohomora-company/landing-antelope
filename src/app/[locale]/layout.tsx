@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Loqu",
     images: [
       {
-        url: "/assets/thumbnail.png",
+        url: "/assets/thumbnail2.png",
         width: 1200,
         height: 500,
         alt: "Loqu - AI-Supercharged Language Exchange",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     creator: "@loqu",
     images: [
       {
-        url: "/assets/thumbnail.png",
+        url: "/assets/thumbnail2.png",
         width: 1200,
         height: 500,
         alt: "Loqu - AI-Supercharged Language Exchange",
