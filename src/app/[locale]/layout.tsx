@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Loqu",
     images: [
       {
-        url: "https://www.loqu.xyz/assets/thumbnail.png",
+        url: "/assets/thumbnail.png",
         width: 1200,
         height: 630,
         alt: "Loqu - AI-Supercharged Language Exchange",
@@ -35,7 +35,14 @@ export const metadata: Metadata = {
       "Experience the most advanced language exchange with Loqu. Share posts, follow friends, and learn languages beyond basic greetings with AI-Supercharged features.",
     site: "@loqu",
     creator: "@loqu",
-    images: ["https://www.loqu.xyz/assets/thumbnail.png"],
+    images: [
+      {
+        url: "/assets/thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "Loqu - AI-Supercharged Language Exchange",
+      },
+    ],
   },
 };
 
