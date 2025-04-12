@@ -71,19 +71,6 @@ export default function Home() {
                   {t("main.buttons.android")}
                 </Button>
               </a>
-              <a
-                href="https://app.loqu.xyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px] rounded-xl"
-                >
-                  {t("main.buttons.web")}
-                </Button>
-              </a>
             </div>
           </div>
 
@@ -149,19 +136,6 @@ export default function Home() {
                   className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px] rounded-xl"
                 >
                   {t("main.buttons.android")}
-                </Button>
-              </a>
-              <a
-                href="https://app.loqu.xyz"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button
-                  size="lg"
-                  variant="outline"
-                  className="bg-white text-neutral-900 hover:bg-neutral-900 hover:text-neutral-100 w-[120px] h-[52px] rounded-xl"
-                >
-                  {t("main.buttons.web")}
                 </Button>
               </a>
             </div>
