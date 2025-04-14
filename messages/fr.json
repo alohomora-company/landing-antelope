@@ -1,10 +1,10 @@
 {
   "main": {
     "title": {
-      "line1": "Propulsé par l'IA",
-      "line2": "Échange Linguistique"
+      "line1": "Échange linguistique",
+      "line2": "propulsé par l'IA"
     },
-    "description": "Découvrez une communauté dynamique basée sur les fils d'actualité où vous pouvez partager des publications, suivre vos amis et apprendre des langues au-delà des salutations de base. Nos fonctionnalités alimentées par l'IA rendent l'échange linguistique amusant et facile.\nCommencez avec Loqu dès maintenant !",
+    "description": "Bientôt disponible ! Restez à l'écoute.",
     "buttons": {
       "ios": "iOS",
       "android": "Android",

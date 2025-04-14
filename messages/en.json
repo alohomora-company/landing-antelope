@@ -4,7 +4,7 @@
       "line1": "AI-supercharged",
       "line2": "Language Exchange"
     },
-    "description": "Discover a vibrant, feed-based community where you can share posts, follow friends, and learn languages beyond basic greetings. Our AI-powered features make language exchange fun and easy.\nJust start Loqu now!",
+    "description": "Coming Soon!",
     "buttons": {
       "ios": "iOS",
       "android": "Android",
@@ -123,7 +123,7 @@
       "respect": {
         "title": "1. Respect and Kindness",
         "items0": "Treat all members with dignity. Be patient and courteous, especially when interacting with learners who are still building proficiency in a new language.",
-        "items1": "Avoid using offensive or discriminatory language, including slurs, insults, or remarks that target someone’s gender, ethnicity, race, religion, sexual orientation, or physical/mental abilities.",
+        "items1": "Avoid using offensive or discriminatory language, including slurs, insults, or remarks that target someone's gender, ethnicity, race, religion, sexual orientation, or physical/mental abilities.",
         "items2": "When offering corrections or suggestions, do so politely and constructively."
       },
       "inclusivity": {
@@ -135,12 +135,12 @@
       "communication": {
         "title": "3. Appropriate and Constructive Communication",
         "items0": "Focus on language learning and cultural exchange. Share helpful resources, experiences, and constructive feedback.",
-        "items1": "Avoid spamming, self-promotion, or off-topic discussions that detract from the community’s main purpose.",
+        "items1": "Avoid spamming, self-promotion, or off-topic discussions that detract from the community's main purpose.",
         "items2": "Refrain from sharing explicit or overly graphic content. Keep discussions professional and courteous."
       },
       "safety": {
         "title": "4. Safety and Privacy",
-        "items0": "Respect members’ personal boundaries and privacy. Do not pressure anyone to share more personal information than they are comfortable with.",
+        "items0": "Respect members' personal boundaries and privacy. Do not pressure anyone to share more personal information than they are comfortable with.",
         "items1": "Avoid posting private conversations or sensitive data (e.g., personal contact information, financial data) in public forums or group discussions.",
         "items2": "If you see content or behavior that makes you feel unsafe or violates our guidelines, report it immediately through the appropriate channel."
       },
@@ -152,7 +152,7 @@
       "conflictResolution": {
         "title": "6. Constructive Conflict Resolution",
         "items0": "Healthy debates can help people learn, but keep disagreements respectful. Attack ideas rather than individuals.",
-        "items1": "If a dispute escalates, use the platform’s conflict-resolution tools or reach out to moderators for guidance.",
+        "items1": "If a dispute escalates, use the platform's conflict-resolution tools or reach out to moderators for guidance.",
         "items2": "Encourage calm dialogue. In cross-cultural interactions, differences of perspective are natural. Approach these differences with an open mind."
       },
       "reporting": {
@@ -167,8 +167,8 @@
       },
       "purpose": {
         "title": "9. Platform Purpose First",
-        "items0": "Keep interactions aligned with the community’s core goal: language learning and cultural exchange.",
-        "items1": "Stay focused and respectful of the space we’re all building together.",
+        "items0": "Keep interactions aligned with the community's core goal: language learning and cultural exchange.",
+        "items1": "Stay focused and respectful of the space we're all building together.",
         "items2": "Avoid derailing discussions or dominating conversations in ways that prevent others from participating."
       },
       "roleModel": {

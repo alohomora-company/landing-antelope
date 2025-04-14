@@ -1,10 +1,10 @@
 {
   "main": {
     "title": {
-      "line1": "Potenziato dall'IA",
-      "line2": "Scambio Linguistico"
+      "line1": "Scambio linguistico",
+      "line2": "potenziato dall'IA"
     },
-    "description": "Scopri una community dinamica basata sui post, dove puoi condividere contenuti, seguire gli amici e imparare nuove lingue oltre i saluti di base. Le nostre funzionalità basate sull’intelligenza artificiale rendono lo scambio linguistico semplice e divertente.\nInizia ora con Loqu!",
+    "description": "Prossimamente! Resta sintonizzato.",
     "buttons": {
       "ios": "iOS",
       "android": "Android",
@@ -25,7 +25,7 @@
       "collection": {
         "title": "Raccolta delle informazioni",
         "intro": "Raccogliamo le informazioni che ci fornisci direttamente, tra cui:",
-        "items0": "Informazioni dell’account (nome, email, password)",
+        "items0": "Informazioni dell'account (nome, email, password)",
         "items1": "Dati del profilo (biografia, preferenze linguistiche)",
         "items2": "Contenuti pubblicati o condivisi",
         "items3": "Comunicazioni con altri utenti"
@@ -52,7 +52,7 @@
       },
       "contact": {
         "title": "Contattaci",
-        "content": "Se hai domande sull’informativa sulla privacy, contattaci a support@alohomora.company"
+        "content": "Se hai domande sull'informativa sulla privacy, contattaci a support@alohomora.company"
       }
     }
   },
@@ -64,19 +64,19 @@
       "introduction": {
         "title": "1. Introduzione",
         "content0": "I presenti termini si applicano all'app Loqu (di seguito denominata 'Applicazione'), creata da Alohomora Company (il 'Fornitore del Servizio') come servizio freemium.",
-        "content1": "Scaricando o utilizzando l’Applicazione, accetti i termini qui descritti. Ti invitiamo a leggerli attentamente prima dell’utilizzo."
+        "content1": "Scaricando o utilizzando l'Applicazione, accetti i termini qui descritti. Ti invitiamo a leggerli attentamente prima dell'utilizzo."
       },
       "acceptance": {
         "title": "2. Accettazione dei Termini",
-        "content0": "Utilizzando l’Applicazione, accetti automaticamente i presenti termini.\nÈ severamente vietata la copia o la modifica non autorizzata."
+        "content0": "Utilizzando l'Applicazione, accetti automaticamente i presenti termini.\nÈ severamente vietata la copia o la modifica non autorizzata."
       },
       "intellectualProperty": {
         "title": "3. Proprietà Intellettuale",
-        "content0": "Non puoi estrarre il codice sorgente, tradurre o creare versioni derivate dell’Applicazione.\nTutti i diritti di proprietà intellettuale restano al Fornitore del Servizio."
+        "content0": "Non puoi estrarre il codice sorgente, tradurre o creare versioni derivate dell'Applicazione.\nTutti i diritti di proprietà intellettuale restano al Fornitore del Servizio."
       },
       "modifications": {
         "title": "4. Modifiche e Costi",
-        "content0": "Il Fornitore si riserva il diritto di modificare l’Applicazione o di applicare costi in qualsiasi momento.\nOgni cambiamento verrà comunicato chiaramente agli utenti."
+        "content0": "Il Fornitore si riserva il diritto di modificare l'Applicazione o di applicare costi in qualsiasi momento.\nOgni cambiamento verrà comunicato chiaramente agli utenti."
       },
       "dataSecurity": {
         "title": "5. Dati e Sicurezza",
@@ -84,7 +84,7 @@
       },
       "thirdParty": {
         "title": "6. Servizi di Terze Parti",
-        "content0": "L’Applicazione utilizza servizi di terze parti. Consulta i loro termini:",
+        "content0": "L'Applicazione utilizza servizi di terze parti. Consulta i loro termini:",
         "links": {
           "googlePlay": "Servizi Google Play",
           "admob": "Google AdMob",
@@ -95,7 +95,7 @@
       },
       "connectivity": {
         "title": "7. Connessione e Limitazioni",
-        "content0": "L’Applicazione potrebbe non funzionare correttamente senza connessione a Internet.\nPotrebbero essere applicati costi per i dati. Le spese di roaming sono a tuo carico."
+        "content0": "L'Applicazione potrebbe non funzionare correttamente senza connessione a Internet.\nPotrebbero essere applicati costi per i dati. Le spese di roaming sono a tuo carico."
       },
       "device": {
         "title": "8. Responsabilità del Dispositivo",
@@ -103,7 +103,7 @@
       },
       "updates": {
         "title": "9. Aggiornamenti e Interruzione",
-        "content0": "Accetti di installare aggiornamenti per continuare a utilizzare l’Applicazione.\nIl Fornitore può interrompere il servizio in qualsiasi momento."
+        "content0": "Accetti di installare aggiornamenti per continuare a utilizzare l'Applicazione.\nIl Fornitore può interrompere il servizio in qualsiasi momento."
       },
       "changes": {
         "title": "10. Modifiche ai Termini",
@@ -134,7 +134,7 @@
       },
       "communication": {
         "title": "3. Comunicazione Appropriata e Costruttiva",
-        "items0": "Concentrati sull’apprendimento linguistico e lo scambio culturale. Condividi risorse utili ed esperienze.",
+        "items0": "Concentrati sull'apprendimento linguistico e lo scambio culturale. Condividi risorse utili ed esperienze.",
         "items1": "Evita spam, autopromozione o discussioni fuori tema.",
         "items2": "Non condividere contenuti espliciti o inappropriati. Mantieni un tono rispettoso e professionale."
       },
@@ -147,7 +147,7 @@
       "harassment": {
         "title": "5. Tolleranza Zero per le Molestie",
         "items0": "Sono vietate molestie, bullismo o attacchi diretti verso individui o gruppi.",
-        "items1": "Discorsi d’odio o minacce di violenza porteranno a provvedimenti immediati, come la rimozione dei contenuti o la sospensione dell’account."
+        "items1": "Discorsi d'odio o minacce di violenza porteranno a provvedimenti immediati, come la rimozione dei contenuti o la sospensione dell'account."
       },
       "conflictResolution": {
         "title": "6. Risoluzione Costruttiva dei Conflitti",
@@ -167,7 +167,7 @@
       },
       "purpose": {
         "title": "9. Obiettivo della Piattaforma",
-        "items0": "Mantieni le interazioni in linea con l’obiettivo principale: apprendimento linguistico e scambio culturale.",
+        "items0": "Mantieni le interazioni in linea con l'obiettivo principale: apprendimento linguistico e scambio culturale.",
         "items1": "Rispetta lo spazio che stiamo costruendo insieme.",
         "items2": "Evita di monopolizzare le conversazioni o deviare il dialogo dagli scopi della community."
       },

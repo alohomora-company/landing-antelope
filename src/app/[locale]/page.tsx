@@ -45,6 +45,12 @@ export default function Home() {
               </video>
             </div>
 
+            <div className="relative w-full max-w-[900px]">
+              <p className="text-md text-white text-center leading-relaxed">
+                {t("main.description")}
+              </p>
+            </div>
+
             <div className="flex flex-row items-center gap-4">
               <a
                 href="https://apps.apple.com/app/id6736823979"
