@@ -1,11 +1,17 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import Footer from "@/components/Footer/Footer";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { useSearchParams } from "next/navigation";
 
 export default function Home() {
   const t = useTranslations();
+  const searchParams = useSearchParams();
+  const referrer = searchParams.get("referrer");
+
   return (
     <>
       <div className="flex flex-col min-h-screen max-w-[1664px] mx-auto bg-background">
@@ -46,9 +52,25 @@ export default function Home() {
             </div>
 
             <div className="relative w-full max-w-[900px]">
-              <p className="text-md text-white text-center leading-relaxed">
-                {t("main.description")}
-              </p>
+              {referrer ? (
+                <>
+                  <p className="text-md text-yellow-400 text-center mb-2">
+                    {t("main.referrer.invitedBy")}{" "}
+                    <span className="font-bold">@{referrer}</span>
+                  </p>
+                  <p className="text-md text-white text-center mb-2">
+                    {t("main.referrer.downloadPromptPrefix")}{" "}
+                    <span className="font-bold text-yellow-400">
+                      @{referrer}
+                    </span>{" "}
+                    {t("main.referrer.downloadPromptSuffix")}
+                  </p>
+                </>
+              ) : (
+                <p className="text-md text-white text-center leading-relaxed">
+                  {t("main.description")}
+                </p>
+              )}
             </div>
 
             <div className="flex flex-row items-center gap-4">
@@ -113,9 +135,25 @@ export default function Home() {
             </div>
 
             <div className="relative w-full max-w-[900px]">
-              <p className="text-md text-white text-center leading-relaxed">
-                {t("main.description")}
-              </p>
+              {referrer ? (
+                <>
+                  <p className="text-sm text-yellow-400 text-center mb-2">
+                    {t("main.referrer.invitedBy")}{" "}
+                    <span className="font-bold">@{referrer}</span>
+                  </p>
+                  <p className="text-sm text-white text-center mb-2">
+                    {t("main.referrer.downloadPromptPrefix")}{" "}
+                    <span className="font-bold text-yellow-400">
+                      @{referrer}
+                    </span>{" "}
+                    {t("main.referrer.downloadPromptSuffix")}
+                  </p>
+                </>
+              ) : (
+                <p className="text-md text-white text-center leading-relaxed">
+                  {t("main.description")}
+                </p>
+              )}
             </div>
 
             <div className="flex flex-row items-center gap-4">

@@ -9,6 +9,12 @@
       "ios": "iOS",
       "android": "Android",
       "web": "웹"
+    },
+    "referrer": {
+      "invitedBy": "초대자",
+      "downloadPrompt": "Loqu 모바일 앱을 다운로드하고 {username}을(를) 추천인으로 입력하세요!",
+      "downloadPromptPrefix": "Loqu 모바일 앱을 다운로드하고",
+      "downloadPromptSuffix": "을(를) 추천인으로 입력하세요!"
     }
   },
 
@@ -178,5 +184,7 @@
         "items1": "신규 회원을 환영하거나 피드백을 제공하는 작은 행동이 Loqu의 문화를 만들어갑니다."
       }
     }
-  }
+  },
+
+  "Invited by {username}": "{username}님의 초대로 방문하셨습니다"
 }

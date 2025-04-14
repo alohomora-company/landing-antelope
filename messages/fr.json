@@ -9,6 +9,12 @@
       "ios": "iOS",
       "android": "Android",
       "web": "Web"
+    },
+    "referrer": {
+      "invitedBy": "Invité par",
+      "downloadPrompt": "Téléchargez l'application mobile Loqu et saisissez {username} comme parrain !",
+      "downloadPromptPrefix": "Téléchargez l'application mobile Loqu et saisissez",
+      "downloadPromptSuffix": "comme parrain !"
     }
   },
   "footer": {

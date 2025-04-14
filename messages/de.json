@@ -9,6 +9,12 @@
       "ios": "iOS",
       "android": "Android",
       "web": "Web"
+    },
+    "referrer": {
+      "invitedBy": "Eingeladen von",
+      "downloadPrompt": "Laden Sie die Loqu Mobile App herunter und geben Sie {username} als Ihren Empfehlungsgeber ein!",
+      "downloadPromptPrefix": "Laden Sie die Loqu Mobile App herunter und geben Sie",
+      "downloadPromptSuffix": "als Ihren Empfehlungsgeber ein!"
     }
   },
   "footer": {

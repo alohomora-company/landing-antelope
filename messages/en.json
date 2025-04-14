@@ -4,11 +4,17 @@
       "line1": "AI-supercharged",
       "line2": "Language Exchange"
     },
-    "description": "Coming Soon!",
+    "description": "Coming Soon! Stay tuned for our launch.",
     "buttons": {
       "ios": "iOS",
       "android": "Android",
       "web": "Web"
+    },
+    "referrer": {
+      "invitedBy": "Invited by",
+      "downloadPrompt": "Download Loqu Mobile App and enter {username} as your referrer!",
+      "downloadPromptPrefix": "Download Loqu Mobile App and enter",
+      "downloadPromptSuffix": "as your referrer!"
     }
   },
   "footer": {
@@ -177,5 +183,7 @@
         "items1": "Small actions—like welcoming a new member or giving constructive feedback—help shape the overall culture of Loqu."
       }
     }
-  }
+  },
+
+  "Invited by {username}": "Invited by {username}"
 }

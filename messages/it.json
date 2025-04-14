@@ -9,6 +9,12 @@
       "ios": "iOS",
       "android": "Android",
       "web": "Web"
+    },
+    "referrer": {
+      "invitedBy": "Invitato da",
+      "downloadPrompt": "Scarica l'app mobile Loqu e inserisci {username} come referente!",
+      "downloadPromptPrefix": "Scarica l'app mobile Loqu e inserisci",
+      "downloadPromptSuffix": "come referente!"
     }
   },
   "footer": {

@@ -8,7 +8,13 @@
     "buttons": {
       "ios": "iOS",
       "android": "Android",
-      "web": "Web"
+      "web": "ウェブ"
+    },
+    "referrer": {
+      "invitedBy": "招待者",
+      "downloadPrompt": "Loquモバイルアプリをダウンロードして、{username}を紹介者として入力してください！",
+      "downloadPromptPrefix": "Loquモバイルアプリをダウンロードして、",
+      "downloadPromptSuffix": "を紹介者として入力してください！"
     }
   },
   "footer": {

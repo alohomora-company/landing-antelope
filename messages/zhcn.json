@@ -8,7 +8,13 @@
     "buttons": {
       "ios": "iOS",
       "android": "Android",
-      "web": "网页版"
+      "web": "网页"
+    },
+    "referrer": {
+      "invitedBy": "邀请人",
+      "downloadPrompt": "下载Loqu移动应用并输入{username}作为您的推荐人！",
+      "downloadPromptPrefix": "下载Loqu移动应用并输入",
+      "downloadPromptSuffix": "作为您的推荐人！"
     }
   },
   "footer": {

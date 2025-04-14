@@ -9,6 +9,12 @@
       "ios": "iOS",
       "android": "Android",
       "web": "वेब"
+    },
+    "referrer": {
+      "invitedBy": "आमंत्रित किया गया",
+      "downloadPrompt": "Loqu मोबाइल ऐप डाउनलोड करें और {username} को अपने रेफरर के रूप में दर्ज करें!",
+      "downloadPromptPrefix": "Loqu मोबाइल ऐप डाउनलोड करें और",
+      "downloadPromptSuffix": "को अपने रेफरर के रूप में दर्ज करें!"
     }
   },
   "footer": {
