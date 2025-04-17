@@ -40,13 +40,13 @@ export default function Home() {
             </div>
 
             <div className="w-full">
-              <Image
-                src="/assets/landing.gif"
-                alt="Loqu Landing"
-                width={500}
-                height={500}
+              <video
+                src="/assets/loqu_0417.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-full object-cover rounded-lg"
-                unoptimized
               />
             </div>
 
@@ -122,13 +122,13 @@ export default function Home() {
             </div>
 
             <div className="relative w-full max-w-[500px]">
-              <Image
-                src="/assets/landing.gif"
-                alt="Loqu Landing"
-                width={500}
-                height={500}
+              <video
+                src="/assets/loqu_0417.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
                 className="w-full h-full object-cover rounded-lg"
-                unoptimized
               />
             </div>
 
