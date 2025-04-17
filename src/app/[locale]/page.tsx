@@ -59,6 +59,7 @@ export default function Home() {
                   muted
                   playsInline
                   className="w-full h-full object-cover rounded-lg"
+                  onSuspend={() => setUseFallback(true)}
                   onError={() => setUseFallback(true)}
                 />
               )}
@@ -153,6 +154,7 @@ export default function Home() {
                   muted
                   playsInline
                   className="w-full h-full object-cover rounded-lg"
+                  onSuspend={() => setUseFallback(true)}
                   onError={() => setUseFallback(true)}
                 />
               )}
