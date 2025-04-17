@@ -6,21 +6,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
+import { Suspense } from "react";
 
 export default function Home() {
   const t = useTranslations();
   const searchParams = useSearchParams();
   const referrer = searchParams.get("referrer");
-  useEffect(() => {
-    setTimeout(() => {
-      if(!isPlaying) {
-        setUseFallback(true);
-      }
-    }, 3000);
-  },[])
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [useFallback, setUseFallback] = useState(false);
 
   return (
     <>
@@ -50,16 +41,14 @@ export default function Home() {
             </div>
 
             <div className="w-full">
-              {useFallback ? (
-                <Image
-                  src="/assets/landing.gif"
-                  alt="Loqu Landing"
-                  width={500}
-                  height={500}
-                  className="w-full h-full object-cover rounded-lg"
-                  unoptimized
-                />
-              ) : (
+              <Suspense fallback={<Image
+                src="/assets/landing.gif"
+                alt="Loqu Landing"
+                width={500}
+                height={500}
+                className="w-full h-full object-cover rounded-lg"
+                unoptimized
+              />}>
                 <video
                   src="/assets/loqu_0417.mp4"
                   autoPlay
@@ -67,12 +56,9 @@ export default function Home() {
                   muted
                   playsInline
                   className="w-full h-full object-cover rounded-lg"
-                  onPlay={() => setIsPlaying(true)}
-                  onError={() => setUseFallback(true)}
                 />
-              )}
+              </Suspense>
             </div>
-
             <div className="relative w-full max-w-[900px]">
               {referrer ? (
                 <>
@@ -145,16 +131,14 @@ export default function Home() {
             </div>
 
             <div className="relative w-full max-w-[500px]">
-              {useFallback ? (
-                <Image
-                  src="/assets/landing.gif"
-                  alt="Loqu Landing"
-                  width={500}
-                  height={500}
-                  className="w-full h-full object-cover rounded-lg"
-                  unoptimized
-                />
-              ) : (
+              <Suspense fallback={<Image
+                src="/assets/landing.gif"
+                alt="Loqu Landing"
+                width={500}
+                height={500}
+                className="w-full h-full object-cover rounded-lg"
+                unoptimized
+              />}>
                 <video
                   src="/assets/loqu_0417.mp4"
                   autoPlay
@@ -162,10 +146,8 @@ export default function Home() {
                   muted
                   playsInline
                   className="w-full h-full object-cover rounded-lg"
-                  onPlay={() => setIsPlaying(true)}
-                  onError={() => setUseFallback(true)}
                 />
-              )}
+              </Suspense>
             </div>
 
             <div className="relative w-full max-w-[900px]">
