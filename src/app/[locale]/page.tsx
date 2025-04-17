@@ -6,12 +6,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const t = useTranslations();
   const searchParams = useSearchParams();
   const referrer = searchParams.get("referrer");
+  useEffect(() => {
+    setTimeout(() => {
+      if(!isPlaying) {
+        setUseFallback(true);
+      }
+    }, 3000);
+  },[])
+  const [isPlaying, setIsPlaying] = useState(false);
   const [useFallback, setUseFallback] = useState(false);
 
   return (
@@ -59,7 +67,7 @@ export default function Home() {
                   muted
                   playsInline
                   className="w-full h-full object-cover rounded-lg"
-                  onSuspend={() => setUseFallback(true)}
+                  onPlay={() => setIsPlaying(true)}
                   onError={() => setUseFallback(true)}
                 />
               )}
@@ -154,7 +162,7 @@ export default function Home() {
                   muted
                   playsInline
                   className="w-full h-full object-cover rounded-lg"
-                  onSuspend={() => setUseFallback(true)}
+                  onPlay={() => setIsPlaying(true)}
                   onError={() => setUseFallback(true)}
                 />
               )}
