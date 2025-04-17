@@ -6,11 +6,13 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
+import { useState } from "react";
 
 export default function Home() {
   const t = useTranslations();
   const searchParams = useSearchParams();
   const referrer = searchParams.get("referrer");
+  const [useFallback, setUseFallback] = useState(false);
 
   return (
     <>
@@ -40,14 +42,26 @@ export default function Home() {
             </div>
 
             <div className="w-full">
-              <video
-                src="/assets/loqu_0417.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover rounded-lg"
-              />
+              {useFallback ? (
+                <Image
+                  src="/assets/landing.gif"
+                  alt="Loqu Landing"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover rounded-lg"
+                  unoptimized
+                />
+              ) : (
+                <video
+                  src="/assets/loqu_0417.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover rounded-lg"
+                  onError={() => setUseFallback(true)}
+                />
+              )}
             </div>
 
             <div className="relative w-full max-w-[900px]">
@@ -122,14 +136,26 @@ export default function Home() {
             </div>
 
             <div className="relative w-full max-w-[500px]">
-              <video
-                src="/assets/loqu_0417.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover rounded-lg"
-              />
+              {useFallback ? (
+                <Image
+                  src="/assets/landing.gif"
+                  alt="Loqu Landing"
+                  width={500}
+                  height={500}
+                  className="w-full h-full object-cover rounded-lg"
+                  unoptimized
+                />
+              ) : (
+                <video
+                  src="/assets/loqu_0417.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-full object-cover rounded-lg"
+                  onError={() => setUseFallback(true)}
+                />
+              )}
             </div>
 
             <div className="relative w-full max-w-[900px]">
