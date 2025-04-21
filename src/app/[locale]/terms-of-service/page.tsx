@@ -234,22 +234,72 @@ const TermsOfService = () => {
           </p>
         </section>
 
-        <section id="contact" className="mb-20">
-          <h2 className="text-2xl font-semibold mb-4">
+        <section id="subscription" className="mb-20">
+          <h2 className="text-3xl font-bold mb-6">
             {t("termsOfService.sections.subscription.title")}
           </h2>
-          <p className="leading-relaxed mb-2">
-            • {t("termsOfService.sections.subscription.content0")}
-          </p>
-          <p className="leading-relaxed mb-2">
-            • {t("termsOfService.sections.subscription.content1")}
-          </p>
-          <p className="leading-relaxed mb-2">
-            • {t("termsOfService.sections.subscription.content2")}
-          </p>
-          <p className="leading-relaxed">
-            • {t("termsOfService.sections.subscription.content3")}
-          </p>
+
+          <div className="pl-4">
+            {/* 1. Subscription Plans */}
+            <p className="leading-relaxed font-semibold">
+              1. {t("termsOfService.sections.subscription.content.items0")}
+            </p>
+            <ul className="mb-4 ml-4 list-disc text-sm text-neutral-300">
+              <li>
+                {t("termsOfService.sections.subscription.description.items0")}
+              </li>
+              <li>
+                {t("termsOfService.sections.subscription.description.items1")}
+              </li>
+              <li>
+                {t("termsOfService.sections.subscription.description.items2")}
+              </li>
+              <li>
+                {t("termsOfService.sections.subscription.description.items3")}
+              </li>
+            </ul>
+
+            {/* 2. Payment & Renewal */}
+            <p className="leading-relaxed font-semibold">
+              2. {t("termsOfService.sections.subscription.content.items1")}
+            </p>
+            <ul className="mb-4 ml-4 list-disc text-sm text-neutral-300">
+              <li>
+                {t("termsOfService.sections.subscription.description.items4")}
+              </li>
+              <li>
+                {t("termsOfService.sections.subscription.description.items5")}
+              </li>
+            </ul>
+
+            {/* 3. Managing Subscriptions */}
+            <p className="leading-relaxed font-semibold">
+              3. {t("termsOfService.sections.subscription.content.items2")}
+            </p>
+            <ul className="mb-4 ml-4 list-disc text-sm text-neutral-300">
+              <li>
+                {t("termsOfService.sections.subscription.description.items6")}
+              </li>
+            </ul>
+
+            {/* 4. Free Trial */}
+            <p className="leading-relaxed font-semibold">4. Free Trial</p>
+            <ul className="mb-4 ml-4 list-disc text-sm text-neutral-300">
+              <li>
+                {t("termsOfService.sections.subscription.description.items7")}
+              </li>
+            </ul>
+
+            {/* 5. Refund Policy */}
+            <p className="leading-relaxed font-semibold">
+              5. {t("termsOfService.sections.subscription.content.items3")}
+            </p>
+            <ul className="ml-4 list-disc text-sm text-neutral-300">
+              <li>
+                {t("termsOfService.sections.subscription.description.items8")}
+              </li>
+            </ul>
+          </div>
         </section>
 
         <section id="contact" className="mb-20">

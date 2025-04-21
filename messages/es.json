@@ -120,10 +120,23 @@
       },
       "subscription": {
         "title": "11. Suscripciones y Facturación",
-        "content0": "Loqu ofrece suscripciones con renovación automática para acceder a funciones premium. Todos los pagos se procesan de forma segura a través de los sistemas de compra integrados de Apple o Google.",
-        "content1": "Tu suscripción se renovará automáticamente a menos que la canceles al menos 24 horas antes de que finalice el período actual. Puedes gestionar o cancelar tu suscripción en cualquier momento desde la configuración de tu cuenta de Apple App Store o Google Play.",
-        "content2": "No se ofrecen reembolsos por partes no utilizadas del período de suscripción. Si se ofrece una prueba gratuita, cualquier parte no utilizada se perderá al comprar una suscripción.",
-        "content3": "Los precios y términos de suscripción se muestran claramente en la aplicación antes de la compra."
+        "content": {
+          "items0": "Planes de suscripción",
+          "items1": "Pago y Renovación",
+          "items2": "Gestión de suscripciones",
+          "items3": "Política de reembolsos"
+        },
+        "description": {
+          "items0": "Suscripción mensual Loqu AI: 4,99 $/mes",
+          "items1": "Suscripción anual Loqu AI: 42,99 $/año",
+          "items2": "Suscripción mensual Loqu AI+: 9,99 $/mes",
+          "items3": "Suscripción anual Loqu AI+: 89,99 $/año",
+          "items4": "El pago se cargará a su cuenta de Apple ID al confirmar la compra.",
+          "items5": "La suscripción se renovará automáticamente a menos que se cancele al menos 24 horas antes del final del período actual.",
+          "items6": "Puede gestionar o cancelar su suscripción en cualquier momento desde los ajustes de su cuenta en la App Store.",
+          "items7": "Si se ofrece una prueba gratuita, cualquier parte no utilizada se perderá al comprar una suscripción.",
+          "items8": "No se realizan reembolsos por las partes no utilizadas del período de suscripción."
+        }
       },
       "contact": {
         "title": "12. Contacto",

@@ -118,12 +118,26 @@
         "content0": "Diese Bedingungen können aktualisiert werden. Bitte überprüfe diese Seite regelmäßig.",
         "effectiveDate": "Gültig ab: 2025-04-04"
       },
+
       "subscription": {
         "title": "11. Abonnements & Abrechnung",
-        "content0": "Loqu bietet automatisch verlängerbare Abonnements für den Zugriff auf Premium-Funktionen an. Alle Zahlungen werden sicher über die In-App-Kaufsysteme von Apple oder Google abgewickelt.",
-        "content1": "Ihr Abonnement wird automatisch verlängert, sofern es nicht mindestens 24 Stunden vor Ablauf der aktuellen Periode gekündigt wird. Sie können Ihr Abonnement jederzeit über die Einstellungen Ihres Apple App Stores oder Google Play-Kontos verwalten oder kündigen.",
-        "content2": "Für nicht genutzte Teile der Abonnementlaufzeit erfolgt keine Rückerstattung. Falls ein kostenloses Probeabo angeboten wird, verfällt ein ungenutzter Teil beim Kauf eines Abonnements.",
-        "content3": "Preise und Abonnementbedingungen werden vor dem Kauf deutlich in der App angezeigt."
+        "content": {
+          "items0": "Abonnementpläne",
+          "items1": "Zahlung & Verlängerung",
+          "items2": "Abonnementverwaltung",
+          "items3": "Rückerstattungsrichtlinie"
+        },
+        "description": {
+          "items0": "Loqu AI Monatsabo: 4,99 $/Monat",
+          "items1": "Loqu AI Jahresabo: 42,99 $/Jahr",
+          "items2": "Loqu AI+ Monatsabo: 9,99 $/Monat",
+          "items3": "Loqu AI+ Jahresabo: 89,99 $/Jahr",
+          "items4": "Die Zahlung wird bei Kaufbestätigung über Ihr Apple-ID-Konto abgerechnet.",
+          "items5": "Ihr Abonnement verlängert sich automatisch, wenn es nicht mindestens 24 Stunden vor Ablauf gekündigt wird.",
+          "items6": "Sie können Ihr Abonnement jederzeit über die Einstellungen Ihres Apple App Stores verwalten oder kündigen.",
+          "items7": "Nicht genutzte Teile einer kostenlosen Testphase verfallen beim Kauf eines Abonnements.",
+          "items8": "Nicht genutzte Teile des Abonnementzeitraums werden nicht erstattet."
+        }
       },
       "contact": {
         "title": "12. Kontakt",

@@ -120,10 +120,23 @@
       },
       "subscription": {
         "title": "11. Abonnements et Facturation",
-        "content0": "Loqu propose des abonnements renouvelables automatiquement pour accéder aux fonctionnalités premium. Tous les paiements sont traités de manière sécurisée via les systèmes d'achat in-app d'Apple ou de Google.",
-        "content1": "Votre abonnement sera renouvelé automatiquement à moins qu’il ne soit annulé au moins 24 heures avant la fin de la période en cours. Vous pouvez gérer ou annuler votre abonnement à tout moment dans les paramètres de votre compte Apple App Store ou Google Play.",
-        "content2": "Aucun remboursement n’est accordé pour les périodes d’abonnement non utilisées. En cas d’essai gratuit, toute portion inutilisée sera annulée lors de l’achat de l’abonnement.",
-        "content3": "Les prix et les conditions d’abonnement sont clairement affichés dans l’application avant l’achat."
+        "content": {
+          "items0": "Formules d'abonnement",
+          "items1": "Paiement et Renouvellement",
+          "items2": "Gestion des Abonnements",
+          "items3": "Politique de Remboursement"
+        },
+        "description": {
+          "items0": "Abonnement mensuel Loqu AI : 4,99 $/mois",
+          "items1": "Abonnement annuel Loqu AI : 42,99 $/an",
+          "items2": "Abonnement mensuel Loqu AI+ : 9,99 $/mois",
+          "items3": "Abonnement annuel Loqu AI+ : 89,99 $/an",
+          "items4": "Le paiement sera débité de votre compte Apple ID lors de la confirmation de l'achat.",
+          "items5": "L'abonnement se renouvelle automatiquement sauf annulation au moins 24 heures avant la fin de la période en cours.",
+          "items6": "Vous pouvez gérer ou annuler votre abonnement à tout moment via les réglages de votre compte App Store.",
+          "items7": "Toute période d’essai gratuite non utilisée sera perdue après l'achat d’un abonnement.",
+          "items8": "Aucun remboursement n’est accordé pour les périodes d’abonnement non utilisées."
+        }
       },
       "contact": {
         "title": "12. Contact",

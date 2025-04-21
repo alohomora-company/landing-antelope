@@ -120,10 +120,23 @@
       },
       "subscription": {
         "title": "11. Abbonamenti e Fatturazione",
-        "content0": "Loqu offre abbonamenti con rinnovo automatico per accedere alle funzionalità premium. Tutti i pagamenti sono gestiti in modo sicuro tramite i sistemi di acquisto in-app di Apple o Google.",
-        "content1": "L'abbonamento si rinnoverà automaticamente a meno che non venga annullato almeno 24 ore prima della fine del periodo corrente. Puoi gestire o annullare l'abbonamento in qualsiasi momento tramite le impostazioni del tuo account Apple App Store o Google Play.",
-        "content2": "Non sono previsti rimborsi per le parti inutilizzate del periodo di abbonamento. Se è offerta una prova gratuita, la parte inutilizzata verrà annullata al momento dell’acquisto dell’abbonamento.",
-        "content3": "I prezzi e i termini dell’abbonamento sono chiaramente visualizzati all’interno dell’app prima dell’acquisto."
+        "content": {
+          "items0": "Piani di abbonamento",
+          "items1": "Pagamento e Rinnovo",
+          "items2": "Gestione degli Abbonamenti",
+          "items3": "Politica di Rimborso"
+        },
+        "description": {
+          "items0": "Abbonamento mensile Loqu AI: $4.99/mese",
+          "items1": "Abbonamento annuale Loqu AI: $42.99/anno",
+          "items2": "Abbonamento mensile Loqu AI+: $9.99/mese",
+          "items3": "Abbonamento annuale Loqu AI+: $89.99/anno",
+          "items4": "Il pagamento verrà addebitato sull'account Apple ID al momento della conferma dell'acquisto.",
+          "items5": "L'abbonamento si rinnova automaticamente se non viene annullato almeno 24 ore prima della fine del periodo in corso.",
+          "items6": "Puoi gestire o annullare il tuo abbonamento in qualsiasi momento dalle impostazioni del tuo account App Store.",
+          "items7": "Se è offerta una prova gratuita, qualsiasi parte inutilizzata verrà annullata al momento dell'acquisto dell’abbonamento.",
+          "items8": "Non sono previsti rimborsi per le parti di abbonamento non utilizzate."
+        }
       },
       "contact": {
         "title": "12. Contatti",

@@ -119,10 +119,23 @@
       },
       "subscription": {
         "title": "11. Subscriptions & Billing",
-        "content0": "Loqu offers auto-renewable subscriptions to access premium features. All payments are processed securely via Apple or Google in-app purchase systems.",
-        "content1": "Your subscription will automatically renew unless canceled at least 24 hours before the end of the current period. You can manage or cancel your subscription anytime via your Apple App Store or Google Play account settings.",
-        "content2": "No refunds are provided for unused portions of the subscription term. If a free trial is offered, any unused portion will be forfeited when a subscription is purchased.",
-        "content3": "Pricing and subscription terms are clearly displayed in-app before purchase."
+        "content": {
+          "items0": "Subscription Plans",
+          "items1": "Payment & Renewal",
+          "items2": "Managing Subscriptions",
+          "items3": "Refund Policy"
+        },
+        "description": {
+          "items0": "Loqu AI Monthly: $4.99/month",
+          "items1": "Loqu AI Yearly: $42.99/year",
+          "items2": "Loqu AI+ Monthly: $9.99/month",
+          "items3": "Loqu AI+ Yearly: $89.99/year",
+          "items4": "Payment will be charged to your Apple ID account at confirmation of purchase.",
+          "items5": "Your subscription will automatically renew unless canceled at least 24 hours before the end of the current period.",
+          "items6": "You can manage or cancel your subscription through your Apple App Store account settings at any time.",
+          "items7": "If offered, any unused portion of a free trial period will be forfeited once a subscription is purchased.",
+          "items8": "No refunds are issued for unused portions of the subscription term."
+        }
       },
       "contact": {
         "title": "12. Contact",
