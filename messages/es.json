@@ -21,6 +21,7 @@
     "privacyPolicy": "Política de privacidad",
     "termsOfService": "Términos de servicio",
     "communityGuidelines": "Normas de la comunidad",
+    "support": "Soporte",
     "copyright": "Copyright 2025 © Alohomora Company. Todos los derechos reservados."
   },
 
@@ -56,6 +57,7 @@
         "items2": "Solicitar la eliminación de tus datos",
         "items3": "Oponerte al procesamiento de datos"
       },
+
       "contact": {
         "title": "Contáctanos",
         "content": "Si tienes preguntas sobre esta política de privacidad, contáctanos en support@alohomora.company"
@@ -116,8 +118,15 @@
         "content0": "Estos términos pueden actualizarse. Consulta esta página regularmente.",
         "effectiveDate": "Vigente desde el 2025-04-04"
       },
+      "subscription": {
+        "title": "11. Suscripciones y Facturación",
+        "content0": "Loqu ofrece suscripciones con renovación automática para acceder a funciones premium. Todos los pagos se procesan de forma segura a través de los sistemas de compra integrados de Apple o Google.",
+        "content1": "Tu suscripción se renovará automáticamente a menos que la canceles al menos 24 horas antes de que finalice el período actual. Puedes gestionar o cancelar tu suscripción en cualquier momento desde la configuración de tu cuenta de Apple App Store o Google Play.",
+        "content2": "No se ofrecen reembolsos por partes no utilizadas del período de suscripción. Si se ofrece una prueba gratuita, cualquier parte no utilizada se perderá al comprar una suscripción.",
+        "content3": "Los precios y términos de suscripción se muestran claramente en la aplicación antes de la compra."
+      },
       "contact": {
-        "title": "11. Contacto",
+        "title": "12. Contacto",
         "content0": "Si tienes alguna pregunta, contáctanos en:"
       }
     }

@@ -22,6 +22,7 @@
     "privacyPolicy": "개인정보처리방침",
     "termsOfService": "이용약관",
     "communityGuidelines": "커뮤니티 가이드라인",
+    "support": "고객센터",
     "copyright": "Copyright 2025 © Alohomora Company. All Rights Reserved."
   },
 
@@ -117,8 +118,15 @@
         "content0": "본 약관은 변경될 수 있습니다. 이 페이지를 수시로 확인해 주세요.",
         "effectiveDate": "시행일: 2025-04-04"
       },
+      "subscription": {
+        "title": "11. 구독 및 결제",
+        "content0": "Loqu은 프리미엄 기능에 접근할 수 있는 자동 갱신 구독 서비스를 제공합니다. 모든 결제는 Apple 또는 Google의 인앱 결제 시스템을 통해 안전하게 처리됩니다.",
+        "content1": "현재 구독 기간이 종료되기 최소 24시간 전까지 취소하지 않으면 구독이 자동으로 갱신됩니다. 구독은 Apple App Store 또는 Google Play 계정 설정에서 언제든지 관리하거나 취소할 수 있습니다.",
+        "content2": "구독 기간 중 사용하지 않은 부분에 대해서는 환불이 제공되지 않습니다. 무료 체험이 제공되는 경우, 구독을 구매하면 남은 체험 기간은 소멸됩니다.",
+        "content3": "가격 및 구독 조건은 구매 전에 앱 내에 명확하게 표시됩니다."
+      },
       "contact": {
-        "title": "11. 문의",
+        "title": "12. 문의",
         "content0": "질문이 있으시면 다음으로 연락해주세요:"
       }
     }

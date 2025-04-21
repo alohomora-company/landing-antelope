@@ -21,6 +21,7 @@
     "privacyPolicy": "Informativa sulla Privacy",
     "termsOfService": "Termini di Servizio",
     "communityGuidelines": "Linee Guida della Community",
+    "support": "Assistenza",
     "copyright": "Copyright 2025 © Alohomora Company. Tutti i diritti riservati."
   },
 
@@ -56,6 +57,7 @@
         "items2": "Richiedere la cancellazione dei tuoi dati",
         "items3": "Opporti al trattamento dei dati"
       },
+
       "contact": {
         "title": "Contattaci",
         "content": "Se hai domande sull'informativa sulla privacy, contattaci a support@alohomora.company"
@@ -116,8 +118,15 @@
         "content0": "I presenti termini possono essere aggiornati. Controlla regolarmente questa pagina per eventuali modifiche.",
         "effectiveDate": "Data di entrata in vigore: 04-04-2025"
       },
+      "subscription": {
+        "title": "11. Abbonamenti e Fatturazione",
+        "content0": "Loqu offre abbonamenti con rinnovo automatico per accedere alle funzionalità premium. Tutti i pagamenti sono gestiti in modo sicuro tramite i sistemi di acquisto in-app di Apple o Google.",
+        "content1": "L'abbonamento si rinnoverà automaticamente a meno che non venga annullato almeno 24 ore prima della fine del periodo corrente. Puoi gestire o annullare l'abbonamento in qualsiasi momento tramite le impostazioni del tuo account Apple App Store o Google Play.",
+        "content2": "Non sono previsti rimborsi per le parti inutilizzate del periodo di abbonamento. Se è offerta una prova gratuita, la parte inutilizzata verrà annullata al momento dell’acquisto dell’abbonamento.",
+        "content3": "I prezzi e i termini dell’abbonamento sono chiaramente visualizzati all’interno dell’app prima dell’acquisto."
+      },
       "contact": {
-        "title": "11. Contatti",
+        "title": "12. Contatti",
         "content0": "Per qualsiasi domanda, contattaci a:"
       }
     }

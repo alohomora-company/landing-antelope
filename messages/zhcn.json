@@ -21,6 +21,7 @@
     "privacyPolicy": "隐私政策",
     "termsOfService": "服务条款",
     "communityGuidelines": "社区守则",
+    "support": "支持",
     "copyright": "Copyright 2025 © Alohomora Company. 保留所有权利。"
   },
 
@@ -56,6 +57,7 @@
         "items2": "请求删除您的数据",
         "items3": "反对我们对数据的处理"
       },
+
       "contact": {
         "title": "联系我们",
         "content": "如对本隐私政策有任何疑问，请发送邮件至 support@alohomora.company 与我们联系。"
@@ -116,8 +118,15 @@
         "content0": "本条款可能会更新。请定期查看此页面。",
         "effectiveDate": "生效日期：2025年4月4日"
       },
+      "subscription": {
+        "title": "11. 订阅与计费",
+        "content0": "Loqu 提供自动续订的订阅服务，以访问高级功能。所有付款均通过 Apple 或 Google 应用内购买系统安全处理。",
+        "content1": "除非在当前周期结束前至少 24 小时取消，否则订阅将自动续订。您可以随时通过 Apple App Store 或 Google Play 帐户设置管理或取消订阅。",
+        "content2": "未使用的订阅部分不予退款。如提供免费试用，购买订阅后未使用的部分将被取消。",
+        "content3": "购买前，价格和订阅条款将在应用内清晰展示。"
+      },
       "contact": {
-        "title": "11. 联系方式",
+        "title": "12. 联系方式",
         "content0": "如有任何问题，请通过以下方式联系我们："
       }
     }

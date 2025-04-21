@@ -21,6 +21,7 @@
     "privacyPolicy": "Datenschutzerklärung",
     "termsOfService": "Nutzungsbedingungen",
     "communityGuidelines": "Community-Richtlinien",
+    "support": "Hilfe",
     "copyright": "Copyright 2025 © Alohomora Company. Alle Rechte vorbehalten."
   },
 
@@ -56,6 +57,7 @@
         "items2": "die Löschung deiner Daten zu verlangen",
         "items3": "der Verarbeitung deiner Daten zu widersprechen"
       },
+
       "contact": {
         "title": "Kontakt",
         "content": "Wenn du Fragen zu dieser Datenschutzerklärung hast, kontaktiere uns bitte unter support@alohomora.company"
@@ -116,8 +118,15 @@
         "content0": "Diese Bedingungen können aktualisiert werden. Bitte überprüfe diese Seite regelmäßig.",
         "effectiveDate": "Gültig ab: 2025-04-04"
       },
+      "subscription": {
+        "title": "11. Abonnements & Abrechnung",
+        "content0": "Loqu bietet automatisch verlängerbare Abonnements für den Zugriff auf Premium-Funktionen an. Alle Zahlungen werden sicher über die In-App-Kaufsysteme von Apple oder Google abgewickelt.",
+        "content1": "Ihr Abonnement wird automatisch verlängert, sofern es nicht mindestens 24 Stunden vor Ablauf der aktuellen Periode gekündigt wird. Sie können Ihr Abonnement jederzeit über die Einstellungen Ihres Apple App Stores oder Google Play-Kontos verwalten oder kündigen.",
+        "content2": "Für nicht genutzte Teile der Abonnementlaufzeit erfolgt keine Rückerstattung. Falls ein kostenloses Probeabo angeboten wird, verfällt ein ungenutzter Teil beim Kauf eines Abonnements.",
+        "content3": "Preise und Abonnementbedingungen werden vor dem Kauf deutlich in der App angezeigt."
+      },
       "contact": {
-        "title": "11. Kontakt",
+        "title": "12. Kontakt",
         "content0": "Wenn du Fragen hast, kontaktiere uns bitte unter:"
       }
     }

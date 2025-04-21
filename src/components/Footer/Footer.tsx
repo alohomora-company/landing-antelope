@@ -13,19 +13,25 @@ const Footer = () => {
               href="/privacy-policy"
               className="text-neutral-100 hover:text-neutral-400 transition text-sm"
             >
-              {t("privacyPolicy.title")}
+              {t("footer.privacyPolicy")}
             </Link>
             <Link
               href="/terms-of-service"
               className="text-neutral-100 hover:text-neutral-400 transition text-sm"
             >
-              {t("termsOfService.title")}
+              {t("footer.termsOfService")}
             </Link>
             <Link
               href="/community-guideline"
               className="text-neutral-100 hover:text-neutral-400 transition text-sm"
             >
-              {t("communityGuidelines.title")}
+              {t("footer.communityGuidelines")}
+            </Link>
+            <Link
+              href="/"
+              className="text-neutral-100 hover:text-neutral-400 transition text-sm"
+            >
+              {t("footer.support")}
             </Link>
           </div>
           <div className="flex flex-col gap-1">
@@ -54,24 +60,30 @@ const Footer = () => {
               {t("footer.copyright")}
             </span>
           </div>
-          <div className="col-span-9 flex justify-between items-center">
+          <div className="col-span-9 flex justify-evenly items-center">
             <Link
               href="/privacy-policy"
-              className="text-neutral-100 hover:text-neutral-400 transition text-xs ml-[200px]"
+              className="text-neutral-100 hover:text-neutral-400 transition text-xs"
             >
               {t("footer.privacyPolicy")}
             </Link>
             <Link
               href="/terms-of-service"
-              className="text-neutral-100 hover:text-neutral-400 transition text-xs ml-8"
+              className="text-neutral-100 hover:text-neutral-400 transition text-xs"
             >
               {t("footer.termsOfService")}
             </Link>
             <Link
               href="/community-guideline"
-              className="text-neutral-100 hover:text-neutral-400 transition text-xs mr-[200px]"
+              className="text-neutral-100 hover:text-neutral-400 transition text-xs"
             >
               {t("footer.communityGuidelines")}
+            </Link>
+            <Link
+              href="/"
+              className="text-neutral-100 hover:text-neutral-400 transition text-xs"
+            >
+              {t("footer.support")}
             </Link>
           </div>
         </div>

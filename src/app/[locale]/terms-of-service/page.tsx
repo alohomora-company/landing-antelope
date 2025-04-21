@@ -87,6 +87,11 @@ const TermsOfService = () => {
             </li>
             <li>
               <a href="#contact" className="hover:text-blue-300">
+                {t("termsOfService.sections.subscription.title")}
+              </a>
+            </li>
+            <li>
+              <a href="#contact" className="hover:text-blue-300">
                 {t("termsOfService.sections.contact.title")}
               </a>
             </li>
@@ -226,6 +231,24 @@ const TermsOfService = () => {
           </p>
           <p className="leading-relaxed font-semibold">
             {t("termsOfService.sections.changes.effectiveDate")}
+          </p>
+        </section>
+
+        <section id="contact" className="mb-20">
+          <h2 className="text-2xl font-semibold mb-4">
+            {t("termsOfService.sections.subscription.title")}
+          </h2>
+          <p className="leading-relaxed mb-2">
+            • {t("termsOfService.sections.subscription.content0")}
+          </p>
+          <p className="leading-relaxed mb-2">
+            • {t("termsOfService.sections.subscription.content1")}
+          </p>
+          <p className="leading-relaxed mb-2">
+            • {t("termsOfService.sections.subscription.content2")}
+          </p>
+          <p className="leading-relaxed">
+            • {t("termsOfService.sections.subscription.content3")}
           </p>
         </section>
 

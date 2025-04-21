@@ -21,6 +21,7 @@
     "privacyPolicy": "Politique de confidentialité",
     "termsOfService": "Conditions d'utilisation",
     "communityGuidelines": "Règles de la communauté",
+    "support": "Assistance",
     "copyright": "Copyright 2025 © Alohomora Company. Tous droits réservés."
   },
 
@@ -56,6 +57,7 @@
         "items2": "Demander la suppression de vos données",
         "items3": "Vous opposer au traitement de vos données"
       },
+
       "contact": {
         "title": "Nous contacter",
         "content": "Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter à support@alohomora.company"
@@ -116,8 +118,15 @@
         "content0": "Ces conditions peuvent être mises à jour. Veuillez consulter cette page régulièrement.",
         "effectiveDate": "Date d'effet : 2025-04-04"
       },
+      "subscription": {
+        "title": "11. Abonnements et Facturation",
+        "content0": "Loqu propose des abonnements renouvelables automatiquement pour accéder aux fonctionnalités premium. Tous les paiements sont traités de manière sécurisée via les systèmes d'achat in-app d'Apple ou de Google.",
+        "content1": "Votre abonnement sera renouvelé automatiquement à moins qu’il ne soit annulé au moins 24 heures avant la fin de la période en cours. Vous pouvez gérer ou annuler votre abonnement à tout moment dans les paramètres de votre compte Apple App Store ou Google Play.",
+        "content2": "Aucun remboursement n’est accordé pour les périodes d’abonnement non utilisées. En cas d’essai gratuit, toute portion inutilisée sera annulée lors de l’achat de l’abonnement.",
+        "content3": "Les prix et les conditions d’abonnement sont clairement affichés dans l’application avant l’achat."
+      },
       "contact": {
-        "title": "11. Contact",
+        "title": "12. Contact",
         "content0": "Pour toute question, veuillez nous contacter à :"
       }
     }
