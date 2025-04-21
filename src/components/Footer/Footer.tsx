@@ -27,12 +27,14 @@ const Footer = () => {
             >
               {t("footer.communityGuidelines")}
             </Link>
-            <Link
-              href="/"
+            <a
+              href="https://tally.so/r/n0A2pN"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-neutral-100 hover:text-neutral-400 transition text-sm"
             >
               {t("footer.support")}
-            </Link>
+            </a>
           </div>
           <div className="flex flex-col gap-1">
             <a
@@ -79,12 +81,14 @@ const Footer = () => {
             >
               {t("footer.communityGuidelines")}
             </Link>
-            <Link
-              href="/"
+            <a
+              href="https://tally.so/r/n0A2pN"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-neutral-100 hover:text-neutral-400 transition text-xs"
             >
               {t("footer.support")}
-            </Link>
+            </a>
           </div>
         </div>
       </div>
